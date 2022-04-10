@@ -1,0 +1,20 @@
+{
+  "name": "vision-china",
+  "version": "0.0.5",
+  "description": "程序员视角看中国城市",
+  "main": "node-spider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yayxs/vision-china.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yayxs/vision-china/issues"
+  },
+  "homepage": "https://github.com/yayxs/vision-china#readme"
+}
