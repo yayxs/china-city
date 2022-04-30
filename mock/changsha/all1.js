@@ -1,4 +1,4 @@
-const data = {
+export default {
   errno: 0,
   error: '',
   data: {
