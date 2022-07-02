@@ -97,3 +97,5 @@
 - [《商丘市国民经济和社会发展第十四个五年发展规划和2035年远景发展目标纲要》解读](http://fgw.shangqiu.gov.cn/jdhy/zcjd/content_122753) by 商丘市发展和改革委员会
 
 ##### 读后感
+
+- [《商丘市国民经济和社会发展第十四个五年规划和二〇三五年远景目标纲要》 读后感](https://github.com/yayxs/vision-china/blob/main/src/145/henan-shangqiu.md)

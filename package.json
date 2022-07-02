@@ -1,6 +1,6 @@
 {
-  "name": "vision-china",
-  "version": "1.0.0",
+  "name": "china-city",
+  "version": "1.0.2",
   "description": "程序员视角看中国城市",
   "main": "node-spider.js",
   "scripts": {
