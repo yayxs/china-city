@@ -1,22 +1,30 @@
 {
   "name": "china-city",
-  "version": "1.0.2",
-  "description": "程序员视角看中国城市",
-  "main": "node-spider.js",
+  "version": "1.0.3",
+  "description": "视野中国 程序员视角看中国城市",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yayxs/vision-china.git"
   },
   "keywords": [
-    "china"
+    "china",
+    "city",
+    "中国城市"
   ],
-  "author": "",
+  "author": "vanlee",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yayxs/vision-china/issues"
   },
-  "homepage": "https://github.com/yayxs/vision-china#readme"
+  "homepage": "https://github.com/yayxs/vision-china#readme",
+  "dependencies": {
+    "@algolia/client-search": "4.9.1",
+    "vitepress": "^1.0.0-alpha.20",
+    "vue": "^3.2.41"
+  }
 }
