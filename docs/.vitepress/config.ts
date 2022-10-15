@@ -9,6 +9,7 @@ const generateSideBar = () => {
       items: [
         { text: 'What is china-city', link: '/guide/what-is-cc' },
         { text: 'The author says', link: '/guide/the-author-says' },
+        { text: 'One-sided view', link: '/guide/one-sided-view' },
       ],
     },
     {
