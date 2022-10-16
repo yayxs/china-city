@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ESNext"
+  },
+  "include": ["docs/**/*.ts"],
+  "exclude": ["node_modules", "dist", "docs/.vitepress/dist"]
+}

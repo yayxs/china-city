@@ -4,13 +4,23 @@ const DESC = '程序员视野看中国'
 const generateSideBar = () => {
   return [
     {
-      text: 'About',
+      text: 'About / 关于',
       collapsible: true,
       items: [
         { text: 'What is china-city', link: '/guide/what-is-cc' },
         { text: 'The author says', link: '/guide/the-author-says' },
         { text: 'One-sided view', link: '/guide/one-sided-view' },
       ],
+    },
+    {
+      text: 'Outline / 大纲',
+      collapsible: true,
+      items: [{ text: 'Priority', link: '/guide/priority' }],
+    },
+    {
+      text: 'Point of view / 视角',
+      collapsible: true,
+      items: [{ text: '房价', link: '/guide/fangjia' }],
     },
     {
       text: 'Update',

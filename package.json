@@ -24,6 +24,8 @@
   "homepage": "https://github.com/yayxs/vision-china#readme",
   "dependencies": {
     "@algolia/client-search": "4.9.1",
+    "@antv/g2plot": "^2.4.20",
+    "typescript": "^4.8.4",
     "vitepress": "^1.0.0-alpha.20",
     "vue": "^3.2.41"
   }
