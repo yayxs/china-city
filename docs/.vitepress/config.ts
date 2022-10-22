@@ -23,6 +23,24 @@ const generateSideBar = () => {
       items: [{ text: '房价', link: '/guide/fangjia' }],
     },
     {
+      text: 'Quote / 引用',
+      collapsible: true,
+      items: [
+        { text: '中指快评', link: '/guide/fangjia-zz' },
+        { text: '专有名词', link: '/guide/proper-noun' },
+      ],
+    },
+    {
+      text: 'Other',
+      collapsible: true,
+      items: [
+        {
+          text: '买房日志',
+          link: '/guide/buying-a-house-log',
+        },
+      ],
+    },
+    {
       text: 'Update',
       collapsible: true,
       items: [

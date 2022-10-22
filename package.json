@@ -1,6 +1,6 @@
 {
   "name": "china-city",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "视野中国 程序员视角看中国城市",
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -14,10 +14,12 @@
   "keywords": [
     "china",
     "city",
-    "中国城市"
+    "中国城市",
+    "买房",
+    "房价"
   ],
   "author": "vanlee",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/yayxs/vision-china/issues"
   },
