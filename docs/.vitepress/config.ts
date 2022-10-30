@@ -1,22 +1,41 @@
 import { defineConfig } from 'vitepress'
-const TITLE = '视野中国'
-const DESC = '程序员视野看中国'
+import { TITLE, DESC } from '../config'
+
 const generateSideBar = () => {
   return [
     {
-      text: 'About / 关于',
+      text: '关于',
       collapsible: true,
       items: [
-        { text: 'What is china-city', link: '/guide/what-is-cc' },
-        { text: 'The author says', link: '/guide/the-author-says' },
-        { text: 'One-sided view', link: '/guide/one-sided-view' },
+        {
+          text: '这个项目',
+          textEN: 'What is china-city',
+          link: '/guide/what-is-cc',
+        },
+        {
+          text: '作者想对你说',
+          textEN: 'The author says',
+          link: '/guide/the-author-says',
+        },
+        {
+          text: '一些片面看法',
+          textEN: 'One-sided view',
+          link: '/guide/one-sided-view',
+        },
       ],
     },
     {
-      text: 'Outline / 大纲',
+      text: '前置知识',
+      textEN: 'Outline / 大纲',
       collapsible: true,
-      items: [{ text: 'Priority', link: '/guide/priority' }],
+      items: [
+        { text: '中国所有的省份', link: '/guide/province' },
+        { text: '省份下的城市', link: '/guide/province-city' },
+
+        { text: '看问题的优先级', link: '/guide/priority' },
+      ],
     },
+
     {
       text: 'Point of view / 视角',
       collapsible: true,
@@ -26,8 +45,8 @@ const generateSideBar = () => {
       text: 'Quote / 引用',
       collapsible: true,
       items: [
-        { text: '中指快评', link: '/guide/fangjia-zz' },
-        { text: '专有名词', link: '/guide/proper-noun' },
+        { text: '二十大中的房地产', link: '/guide/fangjia-zz' },
+        { text: '重点专有名词解析', link: '/guide/proper-noun' },
       ],
     },
     {

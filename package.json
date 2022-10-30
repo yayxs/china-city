@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "视野中国 程序员视角看中国城市",
   "scripts": {
+    "dev": "vitepress dev docs",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
