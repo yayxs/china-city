@@ -1,20 +1,16 @@
 <script setup>
-import CustomComponent from '../components/145/china.vue'
 </script>
-
-
 
 # 十四五规划与远景纲要阅读笔记（撰写中，不完整）
 
 其实早在`2021年03月份` **ZH 人民共和国政府网** 就发了 [《中华人民共和国国民经济和社会发展第十四个五年规划和 2035 年远景目标纲要》](http://www.gov.cn/xinwen/2021-03/13/content_5592681.htm) 整整有 十九篇 六十五章。简单概括一下什么是十四五：指的是我们第十四个五年（2021-2025） 的规划以及对 2035 年的目标。明确指明了国家的战略，政府的重点。
-<CustomComponent />
 
+<!-- <CustomComponent /> -->
 
 ![img](http://www.gov.cn/xinwen/2021-03/13/5592681/images/74cd5f5531e7468cba769058e8a474ef.JPG)
 
-
-
 ![img](http://www.gov.cn/xinwen/2021-03/13/5592681/images/728ac6b7d9c44739b79faf08a5e9c3b4.JPG)
+
 - 第二篇：创新 vs 发展：组建一批国家实验室。科技啊科技，网络通信、人工智能等 集成电路，人才
   - **形成国际科技创新中心** ：
     - 北京 北京怀柔
