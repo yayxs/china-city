@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid'
+// import { withMermaid } from 'vitepress-plugin-mermaid'
 import { TITLE, DESC } from '../config'
 
 const generateSideBar = () => {
@@ -124,16 +124,25 @@ const generateSideBar = () => {
 //   },
 // }
 
-export default withMermaid(
-  defineConfig({
-    title: TITLE,
-    description: DESC,
-    lastUpdated: true,
-    themeConfig: {
-      sidebar: generateSideBar()
-    },
-    mermaid: {
-      // refer https://mermaid-js.github.io/mermaid/#/Setup for options
-    }
-  })
-)
+export default defineConfig({
+  title: TITLE,
+  description: DESC,
+  lastUpdated: true,
+  themeConfig: {
+    sidebar: generateSideBar()
+  }
+})
+
+// export default withMermaid(
+//   defineConfig({
+//     title: TITLE,
+//     description: DESC,
+//     lastUpdated: true,
+//     themeConfig: {
+//       sidebar: generateSideBar()
+//     },
+//     mermaid: {
+//       // refer https://mermaid-js.github.io/mermaid/#/Setup for options
+//     }
+//   })
+// )
