@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import { TITLE, DESC } from '../config'
 
 const generateSideBar = () => {
@@ -32,7 +33,7 @@ const generateSideBar = () => {
         { text: '首先了解中国所有的省份', link: '/guide/province' },
         { text: '其次知道省份下的所有城市', link: '/guide/province-city' },
         { text: '接着选择一个适合你的城市', link: '/guide/how-to-choose' },
-        { text: '怎么知道适不适合你', link: '/guide/priority' }
+        { text: '怎么知道适不适合你', link: '/guide/match' }
       ]
     },
 
@@ -53,26 +54,54 @@ const generateSideBar = () => {
         { text: '中国十四五与2035远景目标', link: '/guide/145-china' }
       ]
     },
+
     {
-      text: 'Quote / 引用',
-      collapsible: true,
-      items: [
-        { text: '二十大中的房地产', link: '/guide/fangjia-zz' },
-        { text: '重点专有名词解析', link: '/guide/proper-noun' }
-      ]
-    },
-    {
-      text: 'Other',
+      text: '城市专题',
       collapsible: true,
       items: [
         {
-          text: '买房日志',
+          text: '长沙',
+          link: '/cities/city-changsha'
+        },
+        {
+          text: '武汉',
+          link: '/cities/city-wuhan'
+        },
+        {
+          text: '西安',
+          link: '/cities/city-xian'
+        }
+      ]
+    },
+    {
+      text: '文献资料引用',
+      collapsible: true,
+      items: [{ text: '二十大中的房地产', link: '/guide/fangjia-zz' }]
+    },
+    {
+      text: '其他',
+      collapsible: true,
+      items: [
+        { text: '重点专有名词解析', link: '/guide/proper-noun' },
+        { text: '始终保持学习心态', link: '/guide/keep-learning' },
+        {
+          text: '作者买房日志与心得',
           link: '/guide/buying-a-house-log'
         }
       ]
     },
     {
-      text: 'Update',
+      text: '致谢',
+      collapsible: true,
+      items: [
+        {
+          text: '感谢技术',
+          link: '/thanks/technology'
+        }
+      ]
+    },
+    {
+      text: '更新迁移日志',
       collapsible: true,
       items: [
         {
@@ -95,11 +124,16 @@ const generateSideBar = () => {
 //   },
 // }
 
-export default defineConfig({
-  title: TITLE,
-  description: DESC,
-  lastUpdated: true,
-  themeConfig: {
-    sidebar: generateSideBar()
-  }
-})
+export default withMermaid(
+  defineConfig({
+    title: TITLE,
+    description: DESC,
+    lastUpdated: true,
+    themeConfig: {
+      sidebar: generateSideBar()
+    },
+    mermaid: {
+      // refer https://mermaid-js.github.io/mermaid/#/Setup for options
+    }
+  })
+)
