@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ESNext"
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["docs/**/*.ts"],
+  "include": ["docs/**/*.ts", "docs/vite.config.ts"],
   "exclude": ["node_modules", "dist", "docs/.vitepress/dist"]
 }

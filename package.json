@@ -32,13 +32,21 @@
     "@antv/s2": "^1.35.0",
     "@antv/s2-vue": "^1.4.0",
     "ant-design-vue": "^3.2.15",
+    "axios": "^1.2.0",
     "typescript": "^4.8.4",
+    "vite": "^3.2.4",
     "vitepress": "1.0.0-alpha.29",
     "vue": "^3.2.45"
   },
   "devDependencies": {
-    "mermaid": "^9.2.2",
+    "@types/node": "^18.11.10",
+    "flexsearch": "^0.7.31",
+    "markdown-it": "^13.0.1",
+    "mermaid": "9.1.7",
     "prettier": "^2.7.1",
-    "vitepress-plugin-mermaid": "^2.0.8"
+    "sass": "^1.56.1",
+    "unplugin-vue-components": "^0.22.11",
+    "vitepress-plugin-mermaid": "^2.0.8",
+    "vitepress-plugin-search": "1.0.4-alpha.15"
   }
 }

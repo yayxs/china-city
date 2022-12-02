@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-// import { withMermaid } from 'vitepress-plugin-mermaid'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import { TITLE, DESC } from '../config'
 
 const generateSideBar = () => {
@@ -61,15 +61,15 @@ const generateSideBar = () => {
       items: [
         {
           text: '长沙',
-          link: '/cities/city-changsha'
+          link: '/cities/changsha'
         },
         {
           text: '武汉',
-          link: '/cities/city-wuhan'
+          link: '/cities/wuhan'
         },
         {
           text: '西安',
-          link: '/cities/city-xian'
+          link: '/cities/xian'
         }
       ]
     },
@@ -124,25 +124,25 @@ const generateSideBar = () => {
 //   },
 // }
 
-export default defineConfig({
-  title: TITLE,
-  description: DESC,
-  lastUpdated: true,
-  themeConfig: {
-    sidebar: generateSideBar()
-  }
-})
+// export default defineConfig({
+//   title: TITLE,
+//   description: DESC,
+//   lastUpdated: true,
+//   themeConfig: {
+//     sidebar: generateSideBar()
+//   }
+// })
 
-// export default withMermaid(
-//   defineConfig({
-//     title: TITLE,
-//     description: DESC,
-//     lastUpdated: true,
-//     themeConfig: {
-//       sidebar: generateSideBar()
-//     },
-//     mermaid: {
-//       // refer https://mermaid-js.github.io/mermaid/#/Setup for options
-//     }
-//   })
-// )
+export default withMermaid(
+  defineConfig({
+    title: TITLE,
+    description: DESC,
+    lastUpdated: true,
+    themeConfig: {
+      sidebar: generateSideBar()
+    },
+    mermaid: {
+      // refer https://mermaid-js.github.io/mermaid/#/Setup for options
+    }
+  })
+)
