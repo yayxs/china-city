@@ -1,45 +1,45 @@
-const obj = {
+export default {
   errno: 0,
   error: '',
   data: {
     no_more_data: 0,
-    fb_query_id: '651070634192961536',
+    fb_query_id: '651372742922366976',
     list: [
       {
         item_type: '0',
         item_type_desc: '',
-        pid: '675734',
-        id: '35000000027184',
+        pid: '663419',
+        id: '35000000008511',
         city_id: '430100',
         city_name: '长沙市',
         cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/5c3291f7b1654b54ca9cb3d351c55ac0.jpg',
-        min_frame_area: '370',
-        max_frame_area: '370',
-        district_name: '岳麓',
-        district: '岳麓',
-        district_id: '23008766',
-        bizcircle_id: '611101118',
-        bizcircle_name: '观沙岭',
-        build_id: '35000000027184',
+          'https://ke-image.ljcdn.com/newhouse-user-image/4126c88d8cb29881996432c07d6da564.jpg',
+        min_frame_area: '142',
+        max_frame_area: '178',
+        district_name: '雨花',
+        district: '雨花',
+        district_id: '23008764',
+        bizcircle_id: '613000735',
+        bizcircle_name: '万家丽南路',
+        build_id: '35000000008511',
         permit_all_ready: '1',
         process_status: '3',
-        resblock_frame_area: '建面 370㎡',
-        resblock_frame_area_range: '370㎡',
+        resblock_frame_area: '建面 142-178㎡',
+        resblock_frame_area_range: '142-178㎡',
         resblock_frame_area_desc: '建面',
-        decoration: '毛坯',
-        longitude: '112.96944685969',
-        latitude: '28.250468877316',
-        frame_rooms_desc: '5居',
-        title: '旭辉·铂悦湘江',
-        resblock_name: '旭辉·铂悦湘江',
-        resblock_alias: '铂悦滨江府',
-        address: '支路九旭辉·铂悦湘江',
-        store_addr: '岳麓区滨江景观道与佑母塘交汇向南100米',
+        decoration: '非毛坯',
+        longitude: '113.050437',
+        latitude: '28.119006',
+        frame_rooms_desc: '4居',
+        title: '印湘山',
+        resblock_name: '印湘山',
+        resblock_alias: '印山雅居',
+        address: '雨花区万候路与双塘路交汇处',
+        store_addr: '雨花区万候路与双塘路交汇处',
         avg_unit_price: '0',
-        average_price: '24500',
-        address_remark: '支路九旭辉·铂悦湘江',
-        project_name: 'xhbyxjbmlpu',
+        average_price: '13100',
+        address_remark: '雨花区万候路与双塘路交汇处',
+        project_name: 'yxsbltkd',
         special_tags: [],
         special: {
           lianjia_special: [],
@@ -51,11 +51,11 @@ const obj = {
         frame_rooms: [],
         converged_rooms: [
           {
-            bedroom_count: '5',
-            area_range: '370㎡'
+            bedroom_count: '4',
+            area_range: '142-178㎡'
           }
         ],
-        tags: ['品牌房企', '大型社区'],
+        tags: ['品牌房企', 'VR看房', '低密居所', '绿化率高'],
         project_tags: [
           {
             id: '13',
@@ -63,679 +63,8 @@ const obj = {
             color: ''
           },
           {
-            id: '21',
-            desc: '大型社区',
-            color: ''
-          }
-        ],
-        house_type: '住宅',
-        house_type_value: '107500000003',
-        sale_status: '在售',
-        has_evaluate: '0',
-        has_vr_house: '0',
-        has_short_video: '0',
-        open_date: '2022-03-21',
-        has_virtual_view: '0',
-        lowest_total_price: '6750000',
-        price_show_config: '1',
-        show_price: '24500',
-        show_price_unit: '元/平',
-        show_price_desc: '均价',
-        show_price_confirm_time: '',
-        price_confirm_time: '0000-00-00 00:00:00',
-        status: '2',
-        subway_distance: '',
-        is_cooperation: '0',
-        evaluate_status: '0',
-        show_price_info: '均价24500元/平',
-        brand_id: '17;1360522277642240;1360521678340096',
-        preload_detail_image: [
-          {
-            id: 'img_6877940',
-            image_id: '6877940',
-            type_id: '101900000004',
-            type_name: '效果图',
-            image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/5c3291f7b1654b54ca9cb3d351c55ac0.jpg',
-            title: '',
-            desc: '',
-            extend: null,
-            vr_info: null,
-            video_info: null,
-            image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/5c3291f7b1654b54ca9cb3d351c55ac0.jpg!m_fill,w_60,l_fbk,q_90',
-            image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/5c3291f7b1654b54ca9cb3d351c55ac0.jpg!m_fill,w_750,h_562,l_fbk',
-            image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/5c3291f7b1654b54ca9cb3d351c55ac0.jpg!m_fill,w_1440,l_fbk'
-          }
-        ],
-        reference_avg_price: '24500',
-        reference_avg_price_unit: '元/㎡',
-        reference_avg_price_desc: '参考均价',
-        reference_total_price: '850',
-        reference_total_price_unit: '(万/套)',
-        reference_total_price_desc: '总价',
-        new_sale_tags: [],
-        is_followed: '0',
-        is_support_online_sale: '0',
-        is_undertake: '0',
-        properright: '70年',
-        developer_company: ['长沙卓辉房地产开发有限公司'],
-        property_company: ['永升物业'],
-        live_tag: '0',
-        prod: '1',
-        reference_total_price_range: {
-          price: '850',
-          price_unit: '万/套',
-          price_desc: '参考总价'
-        },
-        sale_status_color: '5F94FF',
-        house_type_color: 'FB9252',
-        house_node: '0',
-        total_price_start: '850',
-        total_price_start_unit: '万/套',
-        avg_price_start: '22972',
-        avg_price_start_unit: '元/平',
-        on_time: '0000-00-00 00:00:00',
-        project_desc: '',
-        has_car_activity: '0',
-        is_new_sale: '0',
-        first_tags: [],
-        m_first_tags: [],
-        fb_expo_id: '651070634482368512',
-        strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368512","fb_item_location":"0","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"675734"}',
-        recommend_log_info: '',
-        recommend_data: {
-          type: '2',
-          essay: {
-            comment_id: '896180877024583680',
-            highlight_label: '项目周边乘坐地铁方便',
-            highlight_color: '#3072F6',
-            highlight_desc:
-              '该项目乘坐地铁方便，想要离地铁站近的朋友可以选择。',
-            total_desc: '1条专家点评',
-            avatars: [
-              'https://img.ljcdn.com/materials/cmsapi/4824c0ad53353e803fc6ad16cb1086a4.jpg'
-            ],
-            action_url:
-              'lianjiabeike://newhouse/detail?project_name=xhbyxjbmlpu&tab=essay'
-          }
-        },
-        recommend_reason: null,
-        reference_total_price_tips:
-          '该价格为参考价格，实际价格以开发商价格为准',
-        user_info: {
-          is_follow: '0'
-        },
-        app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=xhbyxjbmlpu&parentSceneId=6394272835454671873&fb_expo_id=651070634482368512',
-        filter_desc: '',
-        url: '/loupan/p_xhbyxjbmlpu/'
-      },
-      {
-        item_type: '0',
-        item_type_desc: '',
-        pid: '677904',
-        id: '35000000032521',
-        city_id: '430100',
-        city_name: '长沙市',
-        cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/a4db3b0a68ba4888ddb702694dadaf27.jpg',
-        min_frame_area: '220',
-        max_frame_area: '300',
-        district_name: '开福',
-        district: '开福',
-        district_id: '23008768',
-        bizcircle_id: '611101126',
-        bizcircle_name: '伍家岭',
-        build_id: '35000000032521',
-        permit_all_ready: '1',
-        process_status: '3',
-        resblock_frame_area: '建面 220-300㎡',
-        resblock_frame_area_range: '220-300㎡',
-        resblock_frame_area_desc: '建面',
-        decoration: '非毛坯',
-        longitude: '112.99136027234',
-        latitude: '28.226542825914',
-        frame_rooms_desc: '4/5居',
-        title: '建发养云',
-        resblock_name: '建发养云',
-        resblock_alias: '--待定--',
-        address: '潘家坪路建发养云',
-        store_addr: '湖南省长沙市开福区潘家坪路',
-        avg_unit_price: '0',
-        average_price: '23000',
-        address_remark: '潘家坪路建发养云',
-        project_name: 'bmovg',
-        special_tags: [],
-        special: {
-          lianjia_special: [],
-          lianjia_special_comm: '',
-          developer_special: [],
-          developer_special_type: '',
-          developer_special_comm: ''
-        },
-        frame_rooms: [],
-        converged_rooms: [
-          {
-            bedroom_count: '4',
-            area_range: '220-260㎡'
-          },
-          {
-            bedroom_count: '5',
-            area_range: '300㎡'
-          }
-        ],
-        tags: ['绿化率高', '大型社区'],
-        project_tags: [
-          {
-            id: '17',
-            desc: '绿化率高',
-            color: ''
-          },
-          {
-            id: '21',
-            desc: '大型社区',
-            color: ''
-          }
-        ],
-        house_type: '住宅',
-        house_type_value: '107500000003',
-        sale_status: '在售',
-        has_evaluate: '0',
-        has_vr_house: '0',
-        has_short_video: '0',
-        open_date: '2022-07-31',
-        has_virtual_view: '0',
-        lowest_total_price: '5000000',
-        price_show_config: '1',
-        show_price: '23000',
-        show_price_unit: '元/平',
-        show_price_desc: '均价',
-        show_price_confirm_time: '',
-        price_confirm_time: '0000-00-00 00:00:00',
-        status: '2',
-        subway_distance: '',
-        is_cooperation: '2',
-        evaluate_status: '0',
-        show_price_info: '均价23000元/平',
-        brand_id: '',
-        preload_detail_image: [
-          {
-            id: 'img_6912342',
-            image_id: '6912342',
-            type_id: '101900000004',
-            type_name: '效果图',
-            image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/1832cab256216312e48e7a4dbdee59d5.jpg',
-            title: '',
-            desc: '',
-            extend: null,
-            vr_info: null,
-            video_info: null,
-            image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/1832cab256216312e48e7a4dbdee59d5.jpg!m_fill,w_60,l_fbk,q_90',
-            image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/1832cab256216312e48e7a4dbdee59d5.jpg!m_fill,w_750,h_562,l_fbk',
-            image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/1832cab256216312e48e7a4dbdee59d5.jpg!m_fill,w_1440,l_fbk'
-          }
-        ],
-        reference_avg_price: '23000',
-        reference_avg_price_unit: '元/㎡',
-        reference_avg_price_desc: '参考均价',
-        reference_total_price: '500-800',
-        reference_total_price_unit: '(万/套)',
-        reference_total_price_desc: '总价',
-        new_sale_tags: [],
-        is_followed: '0',
-        is_support_online_sale: '0',
-        is_undertake: '0',
-        properright: '70年',
-        developer_company: ['厦门建发集团有限公司'],
-        property_company: ['长沙怡盛物业管理有限公司'],
-        live_tag: '0',
-        prod: '1',
-        reference_total_price_range: {
-          price: '500-800',
-          price_unit: '万/套',
-          price_desc: '参考总价'
-        },
-        sale_status_color: '5F94FF',
-        house_type_color: 'FB9252',
-        house_node: '0',
-        total_price_start: '500',
-        total_price_start_unit: '万/套',
-        avg_price_start: '22727',
-        avg_price_start_unit: '元/平',
-        on_time: '0000-00-00 00:00:00',
-        project_desc: '',
-        has_car_activity: '0',
-        is_new_sale: '0',
-        first_tags: [],
-        m_first_tags: [],
-        fb_expo_id: '651070634482368513',
-        strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368513","fb_item_location":"1","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"677904"}',
-        recommend_log_info: '',
-        recommend_reason: null,
-        reference_total_price_tips:
-          '该价格为参考价格，实际价格以开发商价格为准',
-        user_info: {
-          is_follow: '0'
-        },
-        app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=bmovg&parentSceneId=6394272835454671874&fb_expo_id=651070634482368513',
-        filter_desc: '',
-        url: '/loupan/p_bmovg/'
-      },
-      {
-        item_type: '0',
-        item_type_desc: '',
-        pid: '672966',
-        id: '35000000020819',
-        city_id: '430100',
-        city_name: '长沙市',
-        cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/4b4a3de04a7beba8a42a1840db72f62c.jpg',
-        min_frame_area: '110',
-        max_frame_area: '209',
-        district_name: '望城',
-        district: '望城',
-        district_id: '430122',
-        bizcircle_id: '611101112',
-        bizcircle_name: '金星北',
-        build_id: '35000000020819',
-        permit_all_ready: '1',
-        process_status: '3',
-        resblock_frame_area: '建面 110-209㎡',
-        resblock_frame_area_range: '110-209㎡',
-        resblock_frame_area_desc: '建面',
-        decoration: '非毛坯',
-        longitude: '112.94220363105',
-        latitude: '28.286361393082',
-        frame_rooms_desc: '3/4/5居',
-        title: '时代建发和著',
-        resblock_name: '时代建发和著',
-        resblock_alias: '--待定--',
-        address: '银月路时代建发和著',
-        store_addr: '月亮岛.师大附中星城实验小学南门',
-        avg_unit_price: '0',
-        average_price: '22000',
-        address_remark: '银月路时代建发和著',
-        project_name: 'sdjfhzbmhni',
-        special_tags: [],
-        special: {
-          lianjia_special: [],
-          lianjia_special_comm: '',
-          developer_special: [],
-          developer_special_type: '',
-          developer_special_comm: ''
-        },
-        frame_rooms: [],
-        converged_rooms: [
-          {
-            bedroom_count: '4',
-            area_range: '182㎡'
-          },
-          {
-            bedroom_count: '5',
-            area_range: '175.03-209㎡'
-          }
-        ],
-        tags: ['多轨交汇', '近主干道', '成熟商圈', '菜市场'],
-        project_tags: [
-          {
-            id: '45',
-            desc: '多轨交汇',
-            color: ''
-          },
-          {
-            id: '43',
-            desc: '近主干道',
-            color: ''
-          },
-          {
-            id: '53',
-            desc: '成熟商圈',
-            color: ''
-          },
-          {
-            id: '56',
-            desc: '菜市场',
-            color: ''
-          }
-        ],
-        house_type: '住宅',
-        house_type_value: '107500000003',
-        sale_status: '在售',
-        has_evaluate: '0',
-        has_vr_house: '1',
-        has_short_video: '0',
-        open_date: '2021-11-28',
-        has_virtual_view: '1',
-        lowest_total_price: '3300000',
-        price_show_config: '1',
-        show_price: '22000',
-        show_price_unit: '元/平',
-        show_price_desc: '均价',
-        show_price_confirm_time: '',
-        price_confirm_time: '0000-00-00 00:00:00',
-        status: '2',
-        subway_distance: '',
-        is_cooperation: '0',
-        evaluate_status: '0',
-        show_price_info: '均价22000元/平',
-        brand_id: '45;1363508100456448',
-        preload_detail_image: [
-          {
-            id: 'img_6782862',
-            image_id: '6782862',
-            type_id: '102000000012',
-            type_name: '小区配套',
-            image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/55cdc9acf1dc9dee060cd624e7651faa.jpg',
-            title: '',
-            desc: '',
-            extend: null,
-            vr_info: null,
-            video_info: null,
-            image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/55cdc9acf1dc9dee060cd624e7651faa.jpg!m_fill,w_60,l_fbk,q_90',
-            image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/55cdc9acf1dc9dee060cd624e7651faa.jpg!m_fill,w_750,h_562,l_fbk',
-            image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/55cdc9acf1dc9dee060cd624e7651faa.jpg!m_fill,w_1440,l_fbk'
-          }
-        ],
-        reference_avg_price: '22000',
-        reference_avg_price_unit: '元/㎡',
-        reference_avg_price_desc: '参考均价',
-        reference_total_price: '254-440',
-        reference_total_price_unit: '(万/套)',
-        reference_total_price_desc: '总价',
-        new_sale_tags: [],
-        is_followed: '0',
-        is_support_online_sale: '0',
-        is_undertake: '0',
-        properright: '70年',
-        developer_company: ['长沙展图房地产开发有限公司'],
-        property_company: ['建发物业'],
-        live_tag: '0',
-        prod: '1',
-        reference_total_price_range: {
-          price: '254-440',
-          price_unit: '万/套',
-          price_desc: '参考总价'
-        },
-        sale_status_color: '5F94FF',
-        house_type_color: 'FB9252',
-        house_node: '0',
-        total_price_start: '254',
-        total_price_start_unit: '万/套',
-        avg_price_start: '13956',
-        avg_price_start_unit: '元/平',
-        on_time: '0000-00-00 00:00:00',
-        project_desc: '多交通、公园里、学府城',
-        has_car_activity: '0',
-        is_new_sale: '0',
-        first_tags: [],
-        m_first_tags: [],
-        fb_expo_id: '651070634482368514',
-        strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368514","fb_item_location":"2","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"672966"}',
-        recommend_log_info: '',
-        recommend_reason: {
-          type: '4',
-          name: '楼盘亮点',
-          details: '多交通、公园里、学府城'
-        },
-        reference_total_price_tips:
-          '该价格为参考价格，实际价格以开发商价格为准',
-        user_info: {
-          is_follow: '0'
-        },
-        app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=sdjfhzbmhni&parentSceneId=6394272835454671875&fb_expo_id=651070634482368514',
-        filter_desc: '',
-        url: '/loupan/p_sdjfhzbmhni/'
-      },
-      {
-        item_type: '0',
-        item_type_desc: '',
-        pid: '649045',
-        id: '3511100823237',
-        city_id: '430100',
-        city_name: '长沙市',
-        cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/ecfe357169b0cab64db50d81d0ef2e7f.jpg',
-        min_frame_area: '161',
-        max_frame_area: '201',
-        district_name: '开福',
-        district: '开福',
-        district_id: '23008768',
-        bizcircle_id: '611101125',
-        bizcircle_name: '烈士公园',
-        build_id: '3511100823237',
-        permit_all_ready: '1',
-        process_status: '3',
-        resblock_frame_area: '建面 161-201㎡',
-        resblock_frame_area_range: '161-201㎡',
-        resblock_frame_area_desc: '建面',
-        decoration: '毛坯',
-        longitude: '112.994652',
-        latitude: '28.220407',
-        frame_rooms_desc: '3/4居',
-        title: '富兴时代御城',
-        resblock_name: '富兴时代御城',
-        resblock_alias: '富兴世界金融中心,富兴世界金融中心住宅',
-        address: '芙蓉中路与德雅路交汇处东北角',
-        store_addr: '芙蓉中路与德雅路交汇处东北角',
-        avg_unit_price: '0',
-        average_price: '19700',
-        address_remark: '芙蓉中路与德雅路交汇处东北角',
-        project_name: 'fxsjjrzxbkydh',
-        special_tags: [],
-        special: {
-          lianjia_special: [],
-          lianjia_special_comm: '',
-          developer_special: [],
-          developer_special_type: '',
-          developer_special_comm: ''
-        },
-        frame_rooms: [],
-        converged_rooms: [
-          {
-            bedroom_count: '3',
-            area_range: '161.83-190㎡'
-          },
-          {
-            bedroom_count: '4',
-            area_range: '170.24-201.74㎡'
-          }
-        ],
-        tags: ['环线房', '近主干道', '配套齐全', '成熟商圈'],
-        project_tags: [
-          {
-            id: '23',
-            desc: '环线房',
-            color: ''
-          },
-          {
-            id: '43',
-            desc: '近主干道',
-            color: ''
-          },
-          {
-            id: '4',
-            desc: '配套齐全',
-            color: ''
-          },
-          {
-            id: '53',
-            desc: '成熟商圈',
-            color: ''
-          }
-        ],
-        house_type: '住宅',
-        house_type_value: '107500000003',
-        sale_status: '在售',
-        has_evaluate: '0',
-        has_vr_house: '0',
-        has_short_video: '1',
-        open_date: '2021-03-30',
-        has_virtual_view: '0',
-        lowest_total_price: '3100000',
-        price_show_config: '1',
-        show_price: '19700',
-        show_price_unit: '元/平',
-        show_price_desc: '均价',
-        show_price_confirm_time: '911天',
-        price_confirm_time: '2020-06-03 17:03:01',
-        status: '2',
-        subway_distance: '',
-        is_cooperation: '2',
-        evaluate_status: '0',
-        show_price_info: '均价19700元/平',
-        brand_id: '1360521516998656',
-        preload_detail_image: [
-          {
-            id: 'img_5165844',
-            image_id: '5165844',
-            type_id: '101900000004',
-            type_name: '效果图',
-            image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/56461a87e20998d590447bcd30a4c9a8.jpg',
-            title: '',
-            desc: '',
-            extend: null,
-            vr_info: null,
-            video_info: null,
-            image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/56461a87e20998d590447bcd30a4c9a8.jpg!m_fill,w_60,l_fbk,q_90',
-            image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/56461a87e20998d590447bcd30a4c9a8.jpg!m_fill,w_750,h_562,l_fbk',
-            image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/56461a87e20998d590447bcd30a4c9a8.jpg!m_fill,w_1440,l_fbk'
-          }
-        ],
-        reference_avg_price: '19700',
-        reference_avg_price_unit: '元/㎡',
-        reference_avg_price_desc: '参考均价',
-        reference_total_price: '310-390',
-        reference_total_price_unit: '(万/套)',
-        reference_total_price_desc: '总价',
-        new_sale_tags: [],
-        is_followed: '0',
-        is_support_online_sale: '0',
-        is_undertake: '0',
-        properright: '70年',
-        developer_company: ['湖南富兴置业发展有限公司'],
-        property_company: ['岳阳富兴物业管理有限公司长沙分公司'],
-        live_tag: '0',
-        prod: '1',
-        reference_total_price_range: {
-          price: '310-390',
-          price_unit: '万/套',
-          price_desc: '参考总价'
-        },
-        sale_status_color: '5F94FF',
-        house_type_color: 'FB9252',
-        house_node: '0',
-        total_price_start: '310',
-        total_price_start_unit: '万/套',
-        avg_price_start: '19155',
-        avg_price_start_unit: '元/平',
-        on_time: '2020-04-21 19:13:53',
-        project_desc: '伍家岭商圈核心地段',
-        has_car_activity: '0',
-        is_new_sale: '0',
-        first_tags: [],
-        m_first_tags: [],
-        fb_expo_id: '651070634482368515',
-        strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368515","fb_item_location":"3","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"649045"}',
-        recommend_log_info: '',
-        recommend_data: {
-          type: '1',
-          reason: null
-        },
-        recommend_reason: {
-          type: '4',
-          name: '推荐理由',
-          details: '长沙市贝壳评分榜第10名'
-        },
-        reference_total_price_tips:
-          '该价格为参考价格，实际价格以开发商价格为准',
-        user_info: {
-          is_follow: '0'
-        },
-        app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=fxsjjrzxbkydh&parentSceneId=6394272835454671876&fb_expo_id=651070634482368515',
-        filter_desc: '',
-        url: '/loupan/p_fxsjjrzxbkydh/'
-      },
-      {
-        item_type: '0',
-        item_type_desc: '',
-        pid: '677187',
-        id: '35000000030260',
-        city_id: '430100',
-        city_name: '长沙市',
-        cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/5677b79b5f9393fd9c76ebf45c8a3a82.jpg',
-        min_frame_area: '113',
-        max_frame_area: '236',
-        district_name: '岳麓',
-        district: '岳麓',
-        district_id: '23008766',
-        bizcircle_id: '0',
-        bizcircle_name: '',
-        build_id: '35000000030260',
-        permit_all_ready: '1',
-        process_status: '3',
-        resblock_frame_area: '建面 113-236㎡',
-        resblock_frame_area_range: '113-236㎡',
-        resblock_frame_area_desc: '建面',
-        decoration: '非毛坯',
-        longitude: '112.93149200299',
-        latitude: '28.252591147692',
-        frame_rooms_desc: '3/4居',
-        title: '龙湖·舜山府',
-        resblock_name: '龙湖·舜山府',
-        resblock_alias: '龙湖舜山府',
-        address: '西二环龙湖·舜山府',
-        store_addr: '岳麓区西二环与佑母塘路交汇处西北角',
-        avg_unit_price: '0',
-        average_price: '19000',
-        address_remark: '西二环龙湖·舜山府',
-        project_name: 'lhssfbmntr',
-        special_tags: [],
-        special: {
-          lianjia_special: [],
-          lianjia_special_comm: '',
-          developer_special: [],
-          developer_special_type: '',
-          developer_special_comm: ''
-        },
-        frame_rooms: [],
-        converged_rooms: [
-          {
-            bedroom_count: '3',
-            area_range: '113㎡'
-          },
-          {
-            bedroom_count: '4',
-            area_range: '130-236㎡'
-          }
-        ],
-        tags: ['品牌房企', '低密居所', '绿化率高'],
-        project_tags: [
-          {
-            id: '13',
-            desc: '品牌房企',
+            id: '119',
+            desc: 'VR看房',
             color: ''
           },
           {
@@ -753,48 +82,48 @@ const obj = {
         house_type_value: '107500000003',
         sale_status: '在售',
         has_evaluate: '0',
-        has_vr_house: '0',
+        has_vr_house: '1',
         has_short_video: '0',
-        open_date: '2022-05-20',
-        has_virtual_view: '0',
-        lowest_total_price: '3400000',
+        open_date: '2021-10-30',
+        has_virtual_view: '1',
+        lowest_total_price: '1800000',
         price_show_config: '1',
-        show_price: '19000',
+        show_price: '13100',
         show_price_unit: '元/平',
         show_price_desc: '均价',
         show_price_confirm_time: '',
         price_confirm_time: '0000-00-00 00:00:00',
         status: '2',
         subway_distance: '',
-        is_cooperation: '0',
+        is_cooperation: '2',
         evaluate_status: '0',
-        show_price_info: '均价19000元/平',
-        brand_id: '1360522415144960;8',
+        show_price_info: '均价13100元/平',
+        brand_id: '1359541695217664',
         preload_detail_image: [
           {
-            id: 'img_6878599',
-            image_id: '6878599',
-            type_id: '101900000004',
-            type_name: '效果图',
+            id: 'img_6591133',
+            image_id: '6591133',
+            type_id: '102300000002',
+            type_name: '沙盘图',
             image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/ee8ecbf4e8b7a4942659940203fb32fd.jpg',
+              'https://ke-image.ljcdn.com/newhouse-user-image/4126c88d8cb29881996432c07d6da564.jpg',
             title: '',
             desc: '',
             extend: null,
             vr_info: null,
             video_info: null,
             image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/ee8ecbf4e8b7a4942659940203fb32fd.jpg!m_fill,w_60,l_fbk,q_90',
+              'https://image1.ljcdn.com/newhouse-user-image/4126c88d8cb29881996432c07d6da564.jpg!m_fill,w_60,l_fbk,q_90',
             image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/ee8ecbf4e8b7a4942659940203fb32fd.jpg!m_fill,w_750,h_562,l_fbk',
+              'https://image1.ljcdn.com/newhouse-user-image/4126c88d8cb29881996432c07d6da564.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/ee8ecbf4e8b7a4942659940203fb32fd.jpg!m_fill,w_1440,l_fbk'
+              'https://image1.ljcdn.com/newhouse-user-image/4126c88d8cb29881996432c07d6da564.jpg!m_fill,w_1440,l_fbk'
           }
         ],
-        reference_avg_price: '19000',
+        reference_avg_price: '13100',
         reference_avg_price_unit: '元/㎡',
         reference_avg_price_desc: '参考均价',
-        reference_total_price: '34-448',
+        reference_total_price: '186-280',
         reference_total_price_unit: '(万/套)',
         reference_total_price_desc: '总价',
         new_sale_tags: [],
@@ -802,32 +131,49 @@ const obj = {
         is_support_online_sale: '0',
         is_undertake: '0',
         properright: '70年',
-        developer_company: ['长沙奕盛置业有限公司'],
-        property_company: ['龙湖物业'],
+        developer_company: ['湖南嘉壹置业有限公司'],
+        property_company: ['长沙市万科物业服务有限公司'],
         live_tag: '0',
         prod: '1',
         reference_total_price_range: {
-          price: '34-448',
+          price: '186-280',
           price_unit: '万/套',
           price_desc: '参考总价'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
         house_node: '0',
-        total_price_start: '34',
+        total_price_start: '186',
         total_price_start_unit: '万/套',
-        avg_price_start: '1899',
+        avg_price_start: '13098',
         avg_price_start_unit: '元/平',
-        on_time: '0000-00-00 00:00:00',
+        on_time: '2021-03-26 14:37:45',
         project_desc: '',
         has_car_activity: '0',
         is_new_sale: '0',
         first_tags: [],
         m_first_tags: [],
-        fb_expo_id: '651070634482368516',
+        fb_expo_id: '651372743283077190',
         strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368516","fb_item_location":"4","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"677187"}',
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077190","fb_item_location":"0","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"663419"}',
         recommend_log_info: '',
+        recommend_data: {
+          type: '2',
+          essay: {
+            comment_id: '896181428486803456',
+            highlight_label: '项目停车位充足',
+            highlight_color: '#3072F6',
+            highlight_desc:
+              '该项目车位配比为1:1.19，停车位较充足。中建嘉和城距离该项目2.1公里，它的车位配比为1:0.59；长房明宸府距离1.4公里，它的车位配比为1:0.9；金科集美天辰距离2公里，它的车位配比为1:1，经过对比，印湘山的停车位是比较充足的。\n有车位能节约很多时间：回家后停车更便利、迅捷，无需到处找车位、抢车位，更避免因抢车位、乱停放导致的邻里不和睦及交警部门罚款等后果。我们这个时间效率就会会很不一样，这个时间效率就可以用来做更有意义的事情，比如好好休息陪陪家里人，或者额外的去谈一笔业务。地下停车位也比较充足，这样也可以更好保护我们的爱车，比如夏天的直晒。该项目适合有车一族进行选择。',
+            total_desc: '2条专家点评',
+            avatars: [
+              'https://img.ljcdn.com/materials/cmsapi/a7c4ce3e50d7f3c8ba565b7ff4b4d708.jpg',
+              'https://img.ljcdn.com/materials/cmsapi/4824c0ad53353e803fc6ad16cb1086a4.jpg'
+            ],
+            action_url:
+              'lianjiabeike://newhouse/detail?project_name=yxsbltkd&tab=essay'
+          }
+        },
         recommend_reason: null,
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
@@ -835,45 +181,207 @@ const obj = {
           is_follow: '0'
         },
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=lhssfbmntr&parentSceneId=6394272835454671877&fb_expo_id=651070634482368516',
+          'lianjiabeike://newhouse/detail?project_name=yxsbltkd&parentSceneId=6395481270978657793&fb_expo_id=651372743283077190',
         filter_desc: '',
-        url: '/loupan/p_lhssfbmntr/'
+        url: '/loupan/p_yxsbltkd/'
       },
       {
         item_type: '0',
         item_type_desc: '',
-        pid: '659919',
-        id: '35000000006504',
+        pid: '238',
+        id: '3511057366917',
         city_id: '430100',
         city_name: '长沙市',
         cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/396216fffc588f6fbc91d97dbf5cf9aa.png',
-        min_frame_area: '132',
-        max_frame_area: '281',
+          'https://ke-image.ljcdn.com/newhouse-user-image/phpYmT19X1543392878.png',
+        min_frame_area: '94',
+        max_frame_area: '120',
+        district_name: '望城',
+        district: '望城',
+        district_id: '430122',
+        bizcircle_id: '611101112',
+        bizcircle_name: '金星北',
+        build_id: '3511057366917',
+        permit_all_ready: '1',
+        process_status: '3',
+        resblock_frame_area: '建面 94-120㎡',
+        resblock_frame_area_range: '94-120㎡',
+        resblock_frame_area_desc: '建面',
+        decoration: '',
+        longitude: '112.94027313259',
+        latitude: '28.283740675135',
+        frame_rooms_desc: '2/3居',
+        title: '时代倾城•汀蓝',
+        resblock_name: '时代倾城•汀蓝',
+        resblock_alias: '时代倾城',
+        address: '长沙市金星北路',
+        store_addr: '望城区金星北路与银星路交汇处东南角（玫瑰园公交站北侧）',
+        avg_unit_price: '0',
+        average_price: '13000',
+        address_remark: '长沙市金星北路',
+        project_name: 'sdqcaaaje',
+        special_tags: [],
+        special: {
+          lianjia_special: [],
+          lianjia_special_comm: '',
+          developer_special: [],
+          developer_special_type: '',
+          developer_special_comm: ''
+        },
+        frame_rooms: [],
+        converged_rooms: [],
+        tags: ['地铁沿线', '公交直达', '配套齐全', '购物方便'],
+        project_tags: [
+          {
+            id: '1',
+            desc: '地铁沿线',
+            color: ''
+          },
+          {
+            id: '2',
+            desc: '公交直达',
+            color: ''
+          },
+          {
+            id: '4',
+            desc: '配套齐全',
+            color: ''
+          },
+          {
+            id: '5',
+            desc: '购物方便',
+            color: ''
+          }
+        ],
+        house_type: '住宅',
+        house_type_value: '107500000003',
+        sale_status: '在售',
+        has_evaluate: '0',
+        has_vr_house: '1',
+        has_short_video: '0',
+        open_date: '2020-01-99',
+        has_virtual_view: '1',
+        lowest_total_price: '1490000',
+        price_show_config: '1',
+        show_price: '13000',
+        show_price_unit: '元/平',
+        show_price_desc: '均价',
+        show_price_confirm_time: '912天',
+        price_confirm_time: '2020-06-03 14:52:16',
+        status: '2',
+        subway_distance: '距4号线汉王陵公园站0米',
+        is_cooperation: '0',
+        evaluate_status: '0',
+        show_price_info: '均价13000元/平',
+        brand_id: '45',
+        preload_detail_image: [
+          {
+            id: 'img_2946252',
+            image_id: '2946252',
+            type_id: '102100000003',
+            type_name: '楼栋',
+            image_url:
+              'https://ke-image.ljcdn.com/hdic-resblock/d64ee58c-37ec-4f86-849e-421eabb0e700.jpg',
+            title: '',
+            desc: '',
+            extend: null,
+            vr_info: null,
+            video_info: null,
+            image_list_blurry_url:
+              'https://image1.ljcdn.com/hdic-resblock/d64ee58c-37ec-4f86-849e-421eabb0e700.jpg!m_fill,w_60,l_fbk,q_90',
+            image_size_url:
+              'https://image1.ljcdn.com/hdic-resblock/d64ee58c-37ec-4f86-849e-421eabb0e700.jpg!m_fill,w_750,h_562,l_fbk',
+            image_list_size_url:
+              'https://image1.ljcdn.com/hdic-resblock/d64ee58c-37ec-4f86-849e-421eabb0e700.jpg!m_fill,w_1440,l_fbk'
+          }
+        ],
+        reference_avg_price: '13000',
+        reference_avg_price_unit: '元/㎡',
+        reference_avg_price_desc: '参考均价',
+        reference_total_price: '149',
+        reference_total_price_unit: '(万/套)',
+        reference_total_price_desc: '总价',
+        new_sale_tags: [],
+        is_followed: '0',
+        is_support_online_sale: '0',
+        is_undertake: '0',
+        properright: '70年',
+        developer_company: ['长沙玫瑰园房地产开发有限公司'],
+        property_company: ['时代物业管理有限公司长沙公司'],
+        live_tag: '0',
+        prod: '1',
+        reference_total_price_range: {
+          price: '149',
+          price_unit: '万/套',
+          price_desc: '参考总价'
+        },
+        sale_status_color: '5F94FF',
+        house_type_color: 'FB9252',
+        house_node: '0',
+        total_price_start: '0',
+        total_price_start_unit: '万/套',
+        avg_price_start: '0',
+        avg_price_start_unit: '元/平',
+        on_time: '2017-03-06 17:19:38',
+        project_desc: '二环至三环宜居生态毛坯住宅',
+        has_car_activity: '0',
+        is_new_sale: '0',
+        first_tags: [],
+        m_first_tags: [],
+        fb_expo_id: '651372743283077191',
+        strategy_info:
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077191","fb_item_location":"1","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"238"}',
+        recommend_log_info: '',
+        recommend_reason: {
+          type: '4',
+          name: '楼盘亮点',
+          details: '二环至三环宜居生态毛坯住宅'
+        },
+        reference_total_price_tips:
+          '该价格为参考价格，实际价格以开发商价格为准',
+        user_info: {
+          is_follow: '0'
+        },
+        app_detail_url:
+          'lianjiabeike://newhouse/detail?project_name=sdqcaaaje&parentSceneId=6395481270978657794&fb_expo_id=651372743283077191',
+        filter_desc: '',
+        url: '/loupan/p_sdqcaaaje/'
+      },
+      {
+        item_type: '0',
+        item_type_desc: '',
+        pid: '627607',
+        id: '3520039157718694',
+        city_id: '430100',
+        city_name: '长沙市',
+        cover_pic:
+          'https://ke-image.ljcdn.com/newhouse-user-image/621130a44807584de69d49a95cee4c73.jpg',
+        min_frame_area: '99',
+        max_frame_area: '192',
         district_name: '雨花',
         district: '雨花',
         district_id: '23008764',
-        bizcircle_id: '611101147',
-        bizcircle_name: '尚东',
-        build_id: '35000000006504',
+        bizcircle_id: '611101156',
+        bizcircle_name: '武广新城',
+        build_id: '3520039157718694',
         permit_all_ready: '1',
         process_status: '3',
-        resblock_frame_area: '建面 132-281㎡',
-        resblock_frame_area_range: '132-281㎡',
+        resblock_frame_area: '建面 99-192㎡',
+        resblock_frame_area_range: '99-192㎡',
         resblock_frame_area_desc: '建面',
         decoration: '毛坯',
-        longitude: '113.04438234913',
-        latitude: '28.181878593499',
-        frame_rooms_desc: '4/5居',
-        title: '宝能公馆',
-        resblock_name: '宝能公馆',
-        resblock_alias: '长沙宝能公馆',
-        address: '雨花朝晖路与嘉雨路交汇处',
-        store_addr: '雨花朝晖路与嘉雨路交汇处',
+        longitude: '113.050707',
+        latitude: '28.136727',
+        frame_rooms_desc: '3/4/5居',
+        title: '中天星耀城',
+        resblock_name: '中天星耀城',
+        resblock_alias: '中天星耀府',
+        address: '体院路与木莲东路交汇处',
+        store_addr: '体院路与木莲东路交汇处',
         avg_unit_price: '0',
-        average_price: '19000',
-        address_remark: '雨花朝晖路与嘉雨路交汇处',
-        project_name: 'jylbnggblofn',
+        average_price: '13000',
+        address_remark: '体院路与木莲东路交汇处',
+        project_name: 'ztxycbjskt',
         special_tags: [],
         special: {
           lianjia_special: [],
@@ -886,33 +394,200 @@ const obj = {
         converged_rooms: [
           {
             bedroom_count: '4',
-            area_range: '183㎡'
+            area_range: '140㎡'
           },
           {
             bedroom_count: '5',
-            area_range: '165-281㎡'
+            area_range: '173㎡'
           }
         ],
-        tags: ['近主干道', '品牌房企', '贴心物业', '即将交房'],
+        tags: ['多轨交汇', '环线房', '配套齐全', '成熟商圈'],
         project_tags: [
           {
-            id: '43',
-            desc: '近主干道',
+            id: '45',
+            desc: '多轨交汇',
             color: ''
           },
           {
-            id: '13',
-            desc: '品牌房企',
+            id: '23',
+            desc: '环线房',
             color: ''
           },
           {
-            id: '29',
-            desc: '贴心物业',
+            id: '4',
+            desc: '配套齐全',
             color: ''
           },
           {
-            id: '20',
-            desc: '即将交房',
+            id: '53',
+            desc: '成熟商圈',
+            color: ''
+          }
+        ],
+        house_type: '住宅',
+        house_type_value: '107500000003',
+        sale_status: '在售',
+        has_evaluate: '0',
+        has_vr_house: '1',
+        has_short_video: '1',
+        open_date: '2020-05-99',
+        has_virtual_view: '1',
+        lowest_total_price: '1500000',
+        price_show_config: '1',
+        show_price: '13000',
+        show_price_unit: '元/平',
+        show_price_desc: '均价',
+        show_price_confirm_time: '1030天',
+        price_confirm_time: '2020-02-06 17:31:24',
+        status: '2',
+        subway_distance: '',
+        is_cooperation: '0',
+        evaluate_status: '0',
+        show_price_info: '均价13000元/平',
+        brand_id: '256',
+        preload_detail_image: [
+          {
+            id: 'img_5579579',
+            image_id: '5579579',
+            type_id: '101900000004',
+            type_name: '效果图',
+            image_url:
+              'https://ke-image.ljcdn.com/newhouse-user-image/e10b17976c40b5fd852452b8dc747a9f.jpg',
+            title: '',
+            desc: '',
+            extend: null,
+            vr_info: null,
+            video_info: null,
+            image_list_blurry_url:
+              'https://image1.ljcdn.com/newhouse-user-image/e10b17976c40b5fd852452b8dc747a9f.jpg!m_fill,w_60,l_fbk,q_90',
+            image_size_url:
+              'https://image1.ljcdn.com/newhouse-user-image/e10b17976c40b5fd852452b8dc747a9f.jpg!m_fill,w_750,h_562,l_fbk',
+            image_list_size_url:
+              'https://image1.ljcdn.com/newhouse-user-image/e10b17976c40b5fd852452b8dc747a9f.jpg!m_fill,w_1440,l_fbk'
+          }
+        ],
+        reference_avg_price: '13000',
+        reference_avg_price_unit: '元/㎡',
+        reference_avg_price_desc: '参考均价',
+        reference_total_price: '175-216',
+        reference_total_price_unit: '(万/套)',
+        reference_total_price_desc: '总价',
+        new_sale_tags: [],
+        is_followed: '0',
+        is_support_online_sale: '0',
+        is_undertake: '0',
+        properright: '70年',
+        developer_company: ['湖南滨鸿房地产有限公司'],
+        property_company: ['湖南省中天物业管理公司'],
+        live_tag: '0',
+        prod: '1',
+        reference_total_price_range: {
+          price: '175-216',
+          price_unit: '万/套',
+          price_desc: '参考总价'
+        },
+        sale_status_color: '5F94FF',
+        house_type_color: 'FB9252',
+        house_node: '0',
+        total_price_start: '175',
+        total_price_start_unit: '万/套',
+        avg_price_start: '12485',
+        avg_price_start_unit: '元/平',
+        on_time: '2019-03-27 16:47:09',
+        project_desc: '武广新城品牌地产 配套完善',
+        has_car_activity: '0',
+        is_new_sale: '0',
+        first_tags: [],
+        m_first_tags: [],
+        fb_expo_id: '651372743283077192',
+        strategy_info:
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077192","fb_item_location":"2","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"627607"}',
+        recommend_log_info: '',
+        recommend_reason: {
+          type: '4',
+          name: '楼盘亮点',
+          details: '武广新城品牌地产 配套完善'
+        },
+        reference_total_price_tips:
+          '该价格为参考价格，实际价格以开发商价格为准',
+        user_info: {
+          is_follow: '0'
+        },
+        app_detail_url:
+          'lianjiabeike://newhouse/detail?project_name=ztxycbjskt&parentSceneId=6395481270978657795&fb_expo_id=651372743283077192',
+        filter_desc: '',
+        url: '/loupan/p_ztxycbjskt/'
+      },
+      {
+        item_type: '0',
+        item_type_desc: '',
+        pid: '650995',
+        id: '3511055125525',
+        city_id: '430100',
+        city_name: '长沙市',
+        cover_pic:
+          'https://ke-image.ljcdn.com/newhouse-user-image/5a3040e34965831a35e7f59b55b16a11.jpg',
+        min_frame_area: '99',
+        max_frame_area: '203',
+        district_name: '天心',
+        district: '天心',
+        district_id: '23008765',
+        bizcircle_id: '611101165',
+        bizcircle_name: '新开铺',
+        build_id: '3511055125525',
+        permit_all_ready: '1',
+        process_status: '3',
+        resblock_frame_area: '建面 99-203㎡',
+        resblock_frame_area_range: '99-203㎡',
+        resblock_frame_area_desc: '建面',
+        decoration: '毛坯',
+        longitude: '112.98878',
+        latitude: '28.14212',
+        frame_rooms_desc: '3/5居',
+        title: '博林云栖',
+        resblock_name: '博林云栖',
+        resblock_alias: '博林金谷四期,博林金谷',
+        address: '新姚北路399号',
+        store_addr: '新姚北路399号',
+        avg_unit_price: '0',
+        average_price: '13000',
+        address_remark: '新姚北路399号',
+        project_name: 'bljgblbah',
+        special_tags: [],
+        special: {
+          lianjia_special: [],
+          lianjia_special_comm: '',
+          developer_special: [],
+          developer_special_type: '',
+          developer_special_comm: ''
+        },
+        frame_rooms: [],
+        converged_rooms: [
+          {
+            bedroom_count: '3',
+            area_range: '99.6-121.42㎡'
+          }
+        ],
+        tags: ['多轨交汇', '环线房', '成熟商圈', '菜市场'],
+        project_tags: [
+          {
+            id: '45',
+            desc: '多轨交汇',
+            color: ''
+          },
+          {
+            id: '23',
+            desc: '环线房',
+            color: ''
+          },
+          {
+            id: '53',
+            desc: '成熟商圈',
+            color: ''
+          },
+          {
+            id: '56',
+            desc: '菜市场',
             color: ''
           }
         ],
@@ -922,46 +597,46 @@ const obj = {
         has_evaluate: '0',
         has_vr_house: '0',
         has_short_video: '0',
-        open_date: '2021-05-99',
+        open_date: '2020-04-26',
         has_virtual_view: '0',
-        lowest_total_price: '3300000',
+        lowest_total_price: '1790000',
         price_show_config: '1',
-        show_price: '19000',
+        show_price: '13000',
         show_price_unit: '元/平',
         show_price_desc: '均价',
         show_price_confirm_time: '',
         price_confirm_time: '0000-00-00 00:00:00',
         status: '2',
         subway_distance: '',
-        is_cooperation: '2',
+        is_cooperation: '0',
         evaluate_status: '0',
-        show_price_info: '均价19000元/平',
-        brand_id: '1359542964953088',
+        show_price_info: '均价13000元/平',
+        brand_id: '',
         preload_detail_image: [
           {
-            id: 'img_6509028',
-            image_id: '6509028',
-            type_id: '101900000004',
-            type_name: '效果图',
+            id: 'img_6107973',
+            image_id: '6107973',
+            type_id: '101900000001',
+            type_name: '实景图',
             image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/396216fffc588f6fbc91d97dbf5cf9aa.png',
+              'https://ke-image.ljcdn.com/newhouse-user-image/a3e1ab809ac1c8719e0ef74b8800e233.png',
             title: '',
             desc: '',
             extend: null,
             vr_info: null,
             video_info: null,
             image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/396216fffc588f6fbc91d97dbf5cf9aa.png!m_fill,w_60,l_fbk,q_90',
+              'https://image1.ljcdn.com/newhouse-user-image/a3e1ab809ac1c8719e0ef74b8800e233.png!m_fill,w_60,l_fbk,q_90',
             image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/396216fffc588f6fbc91d97dbf5cf9aa.png!m_fill,w_750,h_562,l_fbk',
+              'https://image1.ljcdn.com/newhouse-user-image/a3e1ab809ac1c8719e0ef74b8800e233.png!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/396216fffc588f6fbc91d97dbf5cf9aa.png!m_fill,w_1440,l_fbk'
+              'https://image1.ljcdn.com/newhouse-user-image/a3e1ab809ac1c8719e0ef74b8800e233.png!m_fill,w_1440,l_fbk'
           }
         ],
-        reference_avg_price: '19000',
+        reference_avg_price: '13000',
         reference_avg_price_unit: '元/㎡',
         reference_avg_price_desc: '参考均价',
-        reference_total_price: '225-560',
+        reference_total_price: '129-158',
         reference_total_price_unit: '(万/套)',
         reference_total_price_desc: '总价',
         new_sale_tags: [],
@@ -969,78 +644,82 @@ const obj = {
         is_support_online_sale: '0',
         is_undertake: '0',
         properright: '70年',
-        developer_company: ['湖南美联置业有限公司'],
-        property_company: ['吉祥物业'],
+        developer_company: ['长沙汇丰置业有限公司'],
+        property_company: ['万科物业'],
         live_tag: '0',
         prod: '1',
         reference_total_price_range: {
-          price: '225-560',
+          price: '129-158',
           price_unit: '万/套',
           price_desc: '参考总价'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
         house_node: '0',
-        total_price_start: '225',
+        total_price_start: '129',
         total_price_start_unit: '万/套',
-        avg_price_start: '13636',
+        avg_price_start: '12951',
         avg_price_start_unit: '元/平',
-        on_time: '2020-12-29 15:07:21',
-        project_desc: '',
+        on_time: '2020-06-03 15:50:54',
+        project_desc: '成熟社区',
         has_car_activity: '0',
         is_new_sale: '0',
         first_tags: [],
         m_first_tags: [],
-        fb_expo_id: '651070634482368517',
+        fb_expo_id: '651372743283077193',
         strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368517","fb_item_location":"5","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"659919"}',
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077193","fb_item_location":"3","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"650995"}',
         recommend_log_info: '',
-        recommend_reason: null,
+        recommend_reason: {
+          type: '4',
+          name: '楼盘亮点',
+          details: '成熟社区'
+        },
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
         user_info: {
           is_follow: '0'
         },
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=jylbnggblofn&parentSceneId=6394272835454671878&fb_expo_id=651070634482368517',
+          'lianjiabeike://newhouse/detail?project_name=bljgblbah&parentSceneId=6395481270978657796&fb_expo_id=651372743283077193',
         filter_desc: '',
-        url: '/loupan/p_jylbnggblofn/'
+        url: '/loupan/p_bljgblbah/'
       },
       {
         item_type: '0',
         item_type_desc: '',
-        pid: '675711',
-        id: '35000000027185',
+        pid: '672604',
+        id: '35000000019954',
         city_id: '430100',
         city_name: '长沙市',
         cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/848d517106d0552ee08eb6ebfbd0bab0.jpg',
-        min_frame_area: '143',
-        max_frame_area: '247',
+          'https://ke-image.ljcdn.com/newhouse-user-image/8a42bf9867fc629f629482f6f3cff771.jpg',
+        min_frame_area: '116',
+        max_frame_area: '143',
         district_name: '岳麓',
         district: '岳麓',
         district_id: '23008766',
-        bizcircle_id: '0',
-        bizcircle_name: '',
-        build_id: '35000000027185',
+        bizcircle_id: '611101129',
+        bizcircle_name: '麓谷东',
+        build_id: '35000000019954',
         permit_all_ready: '1',
         process_status: '3',
-        resblock_frame_area: '建面 143-247㎡',
-        resblock_frame_area_range: '143-247㎡',
+        resblock_frame_area: '建面 116-143㎡',
+        resblock_frame_area_range: '116-143㎡',
         resblock_frame_area_desc: '建面',
         decoration: '非毛坯',
-        longitude: '112.87815672396',
-        latitude: '28.185948821194',
-        frame_rooms_desc: '3/4/5居',
-        title: '绿城招商·桂语雲峯',
-        resblock_name: '绿城招商·桂语雲峯',
-        resblock_alias: '绿城招商桂语雲峯',
-        address: '梧桐路绿城招商·桂语雲峯',
-        store_addr: '长沙市岳麓区梧桐路与赏月路交汇处西北角',
+        longitude: '112.90021460928',
+        latitude: '28.21527683463',
+        frame_rooms_desc: '3/4居',
+        title: '长房悦香山',
+        resblock_name: '长房悦香山',
+        resblock_alias: '长房悦香山',
+        address: '麓谷大道388号',
+        store_addr: '湖南省长沙市岳麓区咸嘉湖西路360号',
         avg_unit_price: '0',
-        average_price: '19000',
-        address_remark: '梧桐路绿城招商·桂语雲峯',
-        project_name: 'lczsgyyfbmlox',
+        average_price: '13000',
+        address_remark: '麓谷大道388号',
+        project_name: 'cfyxsbmgzk',
         special_tags: [],
         special: {
           lianjia_special: [],
@@ -1052,15 +731,15 @@ const obj = {
         frame_rooms: [],
         converged_rooms: [
           {
-            bedroom_count: '4',
-            area_range: '191㎡'
+            bedroom_count: '3',
+            area_range: '116-117㎡'
           },
           {
-            bedroom_count: '5',
-            area_range: '247㎡'
+            bedroom_count: '4',
+            area_range: '129-143㎡'
           }
         ],
-        tags: ['品牌房企', 'VR看房', '大型社区'],
+        tags: ['品牌房企', 'VR看房', '绿化率高'],
         project_tags: [
           {
             id: '13',
@@ -1073,8 +752,8 @@ const obj = {
             color: ''
           },
           {
-            id: '21',
-            desc: '大型社区',
+            id: '17',
+            desc: '绿化率高',
             color: ''
           }
         ],
@@ -1084,46 +763,46 @@ const obj = {
         has_evaluate: '0',
         has_vr_house: '1',
         has_short_video: '0',
-        open_date: '2022-08-27',
+        open_date: '2021-10-19',
         has_virtual_view: '1',
-        lowest_total_price: '3400000',
+        lowest_total_price: '1500000',
         price_show_config: '1',
-        show_price: '19000',
+        show_price: '13000',
         show_price_unit: '元/平',
         show_price_desc: '均价',
         show_price_confirm_time: '',
         price_confirm_time: '0000-00-00 00:00:00',
         status: '2',
         subway_distance: '',
-        is_cooperation: '2',
+        is_cooperation: '0',
         evaluate_status: '0',
-        show_price_info: '均价19000元/平',
-        brand_id: '13;14',
+        show_price_info: '均价13000元/平',
+        brand_id: '1352049411981325',
         preload_detail_image: [
           {
-            id: 'img_6857540',
-            image_id: '6857540',
-            type_id: '101900000004',
-            type_name: '效果图',
+            id: 'img_6775944',
+            image_id: '6775944',
+            type_id: '101900000001',
+            type_name: '实景图',
             image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/848d517106d0552ee08eb6ebfbd0bab0.jpg',
+              'https://ke-image.ljcdn.com/newhouse-user-image/ac179fbaed6e3c9d82c00fa18ab7baf9.jpg',
             title: '',
             desc: '',
             extend: null,
             vr_info: null,
             video_info: null,
             image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/848d517106d0552ee08eb6ebfbd0bab0.jpg!m_fill,w_60,l_fbk,q_90',
+              'https://image1.ljcdn.com/newhouse-user-image/ac179fbaed6e3c9d82c00fa18ab7baf9.jpg!m_fill,w_60,l_fbk,q_90',
             image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/848d517106d0552ee08eb6ebfbd0bab0.jpg!m_fill,w_750,h_562,l_fbk',
+              'https://image1.ljcdn.com/newhouse-user-image/ac179fbaed6e3c9d82c00fa18ab7baf9.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/848d517106d0552ee08eb6ebfbd0bab0.jpg!m_fill,w_1440,l_fbk'
+              'https://image1.ljcdn.com/newhouse-user-image/ac179fbaed6e3c9d82c00fa18ab7baf9.jpg!m_fill,w_1440,l_fbk'
           }
         ],
-        reference_avg_price: '19000',
+        reference_avg_price: '13000',
         reference_avg_price_unit: '元/㎡',
         reference_avg_price_desc: '参考均价',
-        reference_total_price: '380-500',
+        reference_total_price: '144-185',
         reference_total_price_unit: '(万/套)',
         reference_total_price_desc: '总价',
         new_sale_tags: [],
@@ -1131,21 +810,21 @@ const obj = {
         is_support_online_sale: '0',
         is_undertake: '0',
         properright: '70年',
-        developer_company: ['长沙溪尚房地产开发有限公司'],
-        property_company: ['绿城物业'],
+        developer_company: ['长沙长房西府房地产开发有限公司'],
+        property_company: ['长房物业'],
         live_tag: '0',
         prod: '1',
         reference_total_price_range: {
-          price: '380-500',
+          price: '144-185',
           price_unit: '万/套',
           price_desc: '参考总价'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
         house_node: '0',
-        total_price_start: '380',
+        total_price_start: '144',
         total_price_start_unit: '万/套',
-        avg_price_start: '19895',
+        avg_price_start: '12307',
         avg_price_start_unit: '元/平',
         on_time: '0000-00-00 00:00:00',
         project_desc: '',
@@ -1153,9 +832,9 @@ const obj = {
         is_new_sale: '0',
         first_tags: [],
         m_first_tags: [],
-        fb_expo_id: '651070634482368518',
+        fb_expo_id: '651372743283077194',
         strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368518","fb_item_location":"6","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"675711"}',
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077194","fb_item_location":"4","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"672604"}',
         recommend_log_info: '',
         recommend_reason: null,
         reference_total_price_tips:
@@ -1164,45 +843,45 @@ const obj = {
           is_follow: '0'
         },
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=lczsgyyfbmlox&parentSceneId=6394272835454671879&fb_expo_id=651070634482368518',
+          'lianjiabeike://newhouse/detail?project_name=cfyxsbmgzk&parentSceneId=6395481270978657797&fb_expo_id=651372743283077194',
         filter_desc: '',
-        url: '/loupan/p_lczsgyyfbmlox/'
+        url: '/loupan/p_cfyxsbmgzk/'
       },
       {
         item_type: '0',
         item_type_desc: '',
-        pid: '641410',
-        id: '3520044620703738',
+        pid: '674136',
+        id: '35000000024116',
         city_id: '430100',
         city_name: '长沙市',
         cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/6f50e7142fdb762463a9d7e6bd43949a.jpg',
-        min_frame_area: '195',
-        max_frame_area: '205',
+          'https://ke-image.ljcdn.com/newhouse-user-image/fc5dbb87dda5d2c240cca3bec5479d15.jpg',
+        min_frame_area: '86',
+        max_frame_area: '150',
         district_name: '天心',
         district: '天心',
         district_id: '23008765',
-        bizcircle_id: '613000736',
-        bizcircle_name: '书院路',
-        build_id: '3520044620703738',
+        bizcircle_id: '613000733',
+        bizcircle_name: '省政府',
+        build_id: '35000000024116',
         permit_all_ready: '1',
         process_status: '3',
-        resblock_frame_area: '建面 195-205㎡',
-        resblock_frame_area_range: '195-205㎡',
+        resblock_frame_area: '建面 86-150㎡',
+        resblock_frame_area_range: '86-150㎡',
         resblock_frame_area_desc: '建面',
         decoration: '毛坯',
-        longitude: '112.982539',
-        latitude: '28.184425',
-        frame_rooms_desc: '4居',
-        title: '长沙檀府',
-        resblock_name: '长沙檀府',
+        longitude: '112.96987648154',
+        latitude: '28.124651870885',
+        frame_rooms_desc: '2/3/4居',
+        title: '辉煌时代',
+        resblock_name: '辉煌时代',
         resblock_alias: '--待定--',
-        address: '黄兴南路与劳动路交汇处',
-        store_addr: '黄兴南路与劳动路交汇处',
+        address: '天心湘江与湘府路交汇处东北角',
+        store_addr: '长沙市天心区新开铺路579号',
         avg_unit_price: '0',
-        average_price: '18500',
-        address_remark: '黄兴南路与劳动路交汇处',
-        project_name: 'ygctfbkmvq',
+        average_price: '13000',
+        address_remark: '天心湘江与湘府路交汇处东北角',
+        project_name: 'hhsdbmjgi',
         special_tags: [],
         special: {
           lianjia_special: [],
@@ -1214,8 +893,173 @@ const obj = {
         frame_rooms: [],
         converged_rooms: [
           {
+            bedroom_count: '2',
+            area_range: '86-90㎡'
+          },
+          {
+            bedroom_count: '3',
+            area_range: '112-120㎡'
+          },
+          {
             bedroom_count: '4',
-            area_range: '195-205㎡'
+            area_range: '131-150㎡'
+          }
+        ],
+        tags: ['车位充足', '绿化率高'],
+        project_tags: [
+          {
+            id: '3',
+            desc: '车位充足',
+            color: ''
+          },
+          {
+            id: '17',
+            desc: '绿化率高',
+            color: ''
+          }
+        ],
+        house_type: '住宅',
+        house_type_value: '107500000003',
+        sale_status: '在售',
+        has_evaluate: '0',
+        has_vr_house: '0',
+        has_short_video: '0',
+        open_date: '2021-12-15',
+        has_virtual_view: '0',
+        lowest_total_price: '1300000',
+        price_show_config: '1',
+        show_price: '13000',
+        show_price_unit: '元/平',
+        show_price_desc: '均价',
+        show_price_confirm_time: '',
+        price_confirm_time: '0000-00-00 00:00:00',
+        status: '2',
+        subway_distance: '',
+        is_cooperation: '2',
+        evaluate_status: '0',
+        show_price_info: '均价13000元/平',
+        brand_id: '',
+        preload_detail_image: [
+          {
+            id: 'img_6812775',
+            image_id: '6812775',
+            type_id: '101900000004',
+            type_name: '效果图',
+            image_url:
+              'https://ke-image.ljcdn.com/newhouse-user-image/fc5dbb87dda5d2c240cca3bec5479d15.jpg',
+            title: '',
+            desc: '',
+            extend: null,
+            vr_info: null,
+            video_info: null,
+            image_list_blurry_url:
+              'https://image1.ljcdn.com/newhouse-user-image/fc5dbb87dda5d2c240cca3bec5479d15.jpg!m_fill,w_60,l_fbk,q_90',
+            image_size_url:
+              'https://image1.ljcdn.com/newhouse-user-image/fc5dbb87dda5d2c240cca3bec5479d15.jpg!m_fill,w_750,h_562,l_fbk',
+            image_list_size_url:
+              'https://image1.ljcdn.com/newhouse-user-image/fc5dbb87dda5d2c240cca3bec5479d15.jpg!m_fill,w_1440,l_fbk'
+          }
+        ],
+        reference_avg_price: '13000',
+        reference_avg_price_unit: '元/㎡',
+        reference_avg_price_desc: '参考均价',
+        reference_total_price: '112-195',
+        reference_total_price_unit: '(万/套)',
+        reference_total_price_desc: '总价',
+        new_sale_tags: [],
+        is_followed: '0',
+        is_support_online_sale: '0',
+        is_undertake: '0',
+        properright: '70年',
+        developer_company: ['湖南融源置业有限公司'],
+        property_company: ['湖南鑫贵物业管理有限公司'],
+        live_tag: '0',
+        prod: '1',
+        reference_total_price_range: {
+          price: '112-195',
+          price_unit: '万/套',
+          price_desc: '参考总价'
+        },
+        sale_status_color: '5F94FF',
+        house_type_color: 'FB9252',
+        house_node: '0',
+        total_price_start: '112',
+        total_price_start_unit: '万/套',
+        avg_price_start: '13000',
+        avg_price_start_unit: '元/平',
+        on_time: '0000-00-00 00:00:00',
+        project_desc: '',
+        has_car_activity: '0',
+        is_new_sale: '0',
+        first_tags: [],
+        m_first_tags: [],
+        fb_expo_id: '651372743283077195',
+        strategy_info:
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077195","fb_item_location":"5","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"674136"}',
+        recommend_log_info: '',
+        recommend_reason: null,
+        reference_total_price_tips:
+          '该价格为参考价格，实际价格以开发商价格为准',
+        user_info: {
+          is_follow: '0'
+        },
+        app_detail_url:
+          'lianjiabeike://newhouse/detail?project_name=hhsdbmjgi&parentSceneId=6395481270978657798&fb_expo_id=651372743283077195',
+        filter_desc: '',
+        url: '/loupan/p_hhsdbmjgi/'
+      },
+      {
+        item_type: '0',
+        item_type_desc: '',
+        pid: '2466',
+        id: '3511063690513',
+        city_id: '430100',
+        city_name: '长沙市',
+        cover_pic:
+          'https://ke-image.ljcdn.com/newhouse-user-image/625aaffc56983eb6f4719717c98bbc67.jpg',
+        min_frame_area: '118',
+        max_frame_area: '141',
+        district_name: '天心',
+        district: '天心',
+        district_id: '23008765',
+        bizcircle_id: '613000733',
+        bizcircle_name: '省政府',
+        build_id: '3511063690513',
+        permit_all_ready: '1',
+        process_status: '3',
+        resblock_frame_area: '建面 118-141㎡',
+        resblock_frame_area_range: '118-141㎡',
+        resblock_frame_area_desc: '建面',
+        decoration: '非毛坯',
+        longitude: '112.992218',
+        latitude: '28.089719',
+        frame_rooms_desc: '3/4/5居',
+        title: '大唐印象',
+        resblock_name: '大唐印象',
+        resblock_alias: '云海湾小区, 海尔鸿玺,紫福园,紫华园',
+        address: '芙蓉南路二段252号',
+        store_addr: '芙蓉南路与老甫冲路交汇处（地铁1号线大托站1号出口旁）',
+        avg_unit_price: '0',
+        average_price: '12800',
+        address_remark: '芙蓉南路二段252号',
+        project_name: 'hehxaadqw',
+        special_tags: [],
+        special: {
+          lianjia_special: [],
+          lianjia_special_comm: '',
+          developer_special: [],
+          developer_special_type: '',
+          developer_special_comm: ''
+        },
+        frame_rooms: [],
+        converged_rooms: [
+          {
+            bedroom_count: '3',
+            area_range: '119-131㎡'
+          },
+          {
+            bedroom_count: '4',
+            area_range: '129-141㎡'
           }
         ],
         tags: ['地铁沿线', '公交直达', '配套齐全', '成熟商圈'],
@@ -1245,48 +1089,48 @@ const obj = {
         house_type_value: '107500000003',
         sale_status: '在售',
         has_evaluate: '0',
-        has_vr_house: '0',
-        has_short_video: '0',
-        open_date: '2022-04-30',
-        has_virtual_view: '0',
-        lowest_total_price: '3600000',
+        has_vr_house: '1',
+        has_short_video: '1',
+        open_date: '2019-12-14',
+        has_virtual_view: '1',
+        lowest_total_price: '1664000',
         price_show_config: '1',
-        show_price: '18500',
+        show_price: '12800',
         show_price_unit: '元/平',
         show_price_desc: '均价',
-        show_price_confirm_time: '',
-        price_confirm_time: '0000-00-00 00:00:00',
+        show_price_confirm_time: '674天',
+        price_confirm_time: '2021-01-27 15:26:10',
         status: '2',
-        subway_distance: '距1号线/2号线五一广场站0米',
-        is_cooperation: '2',
+        subway_distance: '距1号线中信广场站0米',
+        is_cooperation: '0',
         evaluate_status: '0',
-        show_price_info: '均价18500元/平',
-        brand_id: '253',
+        show_price_info: '均价12800元/平',
+        brand_id: '235',
         preload_detail_image: [
           {
-            id: 'img_6903695',
-            image_id: '6903695',
+            id: 'img_4665708',
+            image_id: '4665708',
             type_id: '101900000004',
             type_name: '效果图',
             image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/6f50e7142fdb762463a9d7e6bd43949a.jpg',
+              'https://ke-image.ljcdn.com/newhouse-user-image/625aaffc56983eb6f4719717c98bbc67.jpg',
             title: '',
             desc: '',
             extend: null,
             vr_info: null,
             video_info: null,
             image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/6f50e7142fdb762463a9d7e6bd43949a.jpg!m_fill,w_60,l_fbk,q_90',
+              'https://image1.ljcdn.com/newhouse-user-image/625aaffc56983eb6f4719717c98bbc67.jpg!m_fill,w_60,l_fbk,q_90',
             image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/6f50e7142fdb762463a9d7e6bd43949a.jpg!m_fill,w_750,h_562,l_fbk',
+              'https://image1.ljcdn.com/newhouse-user-image/625aaffc56983eb6f4719717c98bbc67.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/6f50e7142fdb762463a9d7e6bd43949a.jpg!m_fill,w_1440,l_fbk'
+              'https://image1.ljcdn.com/newhouse-user-image/625aaffc56983eb6f4719717c98bbc67.jpg!m_fill,w_1440,l_fbk'
           }
         ],
-        reference_avg_price: '18500',
+        reference_avg_price: '12800',
         reference_avg_price_unit: '元/㎡',
         reference_avg_price_desc: '参考均价',
-        reference_total_price: '300-380',
+        reference_total_price: '152.32-180.48',
         reference_total_price_unit: '(万/套)',
         reference_total_price_desc: '总价',
         new_sale_tags: [],
@@ -1294,78 +1138,82 @@ const obj = {
         is_support_online_sale: '0',
         is_undertake: '0',
         properright: '70年',
-        developer_company: ['湖南中正房地产开发有限公司'],
-        property_company: ['阳光智博物业'],
+        developer_company: ['湖南兴荣投资有限公司'],
+        property_company: ['厦门唐人物业管理有限公司湖南分公司'],
         live_tag: '0',
         prod: '1',
         reference_total_price_range: {
-          price: '300-380',
+          price: '152.32-180.48',
           price_unit: '万/套',
           price_desc: '参考总价'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
         house_node: '0',
-        total_price_start: '300',
+        total_price_start: '152.32',
         total_price_start_unit: '万/套',
-        avg_price_start: '15384',
+        avg_price_start: '12800',
         avg_price_start_unit: '元/平',
-        on_time: '2019-10-09 17:35:18',
-        project_desc: '',
+        on_time: '2018-05-03 20:37:10',
+        project_desc: '省府板块内大平层项目',
         has_car_activity: '0',
         is_new_sale: '0',
         first_tags: [],
         m_first_tags: [],
-        fb_expo_id: '651070634482368519',
+        fb_expo_id: '651372743283077196',
         strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368519","fb_item_location":"7","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"641410"}',
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077196","fb_item_location":"6","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"2466"}',
         recommend_log_info: '',
-        recommend_reason: null,
+        recommend_reason: {
+          type: '4',
+          name: '楼盘亮点',
+          details: '省府板块内大平层项目'
+        },
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
         user_info: {
           is_follow: '0'
         },
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=ygctfbkmvq&parentSceneId=6394272835454671880&fb_expo_id=651070634482368519',
+          'lianjiabeike://newhouse/detail?project_name=hehxaadqw&parentSceneId=6395481270978657799&fb_expo_id=651372743283077196',
         filter_desc: '',
-        url: '/loupan/p_ygctfbkmvq/'
+        url: '/loupan/p_hehxaadqw/'
       },
       {
         item_type: '0',
         item_type_desc: '',
-        pid: '681192',
-        id: '35000000038869',
+        pid: '672781',
+        id: '35000000020383',
         city_id: '430100',
         city_name: '长沙市',
         cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/43f87b0643580c21d720fb877208d496.jpg',
-        min_frame_area: '329',
-        max_frame_area: '335',
-        district_name: '岳麓',
-        district: '岳麓',
-        district_id: '23008766',
-        bizcircle_id: '611100647',
-        bizcircle_name: '岳麓其他',
-        build_id: '35000000038869',
+          'https://ke-image.ljcdn.com/newhouse-user-image/c64ce880039600e179ba033a457f233a.png',
+        min_frame_area: '70',
+        max_frame_area: '134',
+        district_name: '芙蓉',
+        district: '芙蓉',
+        district_id: '23008767',
+        bizcircle_id: '611100649',
+        bizcircle_name: '晚报',
+        build_id: '35000000020383',
         permit_all_ready: '1',
         process_status: '3',
-        resblock_frame_area: '建面 329-335㎡',
-        resblock_frame_area_range: '329-335㎡',
+        resblock_frame_area: '建面 70-134㎡',
+        resblock_frame_area_range: '70-134㎡',
         resblock_frame_area_desc: '建面',
-        decoration: '非毛坯',
-        longitude: '112.93610455593',
-        latitude: '28.100685628476',
-        frame_rooms_desc: '4居',
-        title: '印江府',
-        resblock_name: '印江府',
-        resblock_alias: '--待定--',
-        address: '新生路印江府',
-        store_addr: '湖南省长沙市岳麓区莲坪路60号',
+        decoration: '毛坯',
+        longitude: '113.02557882307',
+        latitude: '28.218476515119',
+        frame_rooms_desc: '2/3/4居',
+        title: '园康云顶苑',
+        resblock_name: '园康云顶苑',
+        resblock_alias: '园康新天地',
+        address: '东二环与火炬西路交汇处',
+        store_addr: '芙蓉区火炬西路与长园路交汇处',
         avg_unit_price: '0',
-        average_price: '18200',
-        address_remark: '新生路印江府',
-        project_name: 'yjfbmtrs',
+        average_price: '12800',
+        address_remark: '东二环与火炬西路交汇处',
+        project_name: 'ykydybmhgf',
         special_tags: [],
         special: {
           lianjia_special: [],
@@ -1377,20 +1225,34 @@ const obj = {
         frame_rooms: [],
         converged_rooms: [
           {
+            bedroom_count: '3',
+            area_range: '107.42㎡'
+          },
+          {
             bedroom_count: '4',
-            area_range: '329-335㎡'
+            area_range: '134.46㎡'
           }
         ],
-        tags: ['车位充足', '绿化率高'],
+        tags: ['多轨交汇', '近主干道', '成熟商圈', '菜市场'],
         project_tags: [
           {
-            id: '3',
-            desc: '车位充足',
+            id: '45',
+            desc: '多轨交汇',
             color: ''
           },
           {
-            id: '17',
-            desc: '绿化率高',
+            id: '43',
+            desc: '近主干道',
+            color: ''
+          },
+          {
+            id: '53',
+            desc: '成熟商圈',
+            color: ''
+          },
+          {
+            id: '56',
+            desc: '菜市场',
             color: ''
           }
         ],
@@ -1400,11 +1262,11 @@ const obj = {
         has_evaluate: '0',
         has_vr_house: '0',
         has_short_video: '0',
-        open_date: '2022-07-06',
+        open_date: '2021-10-03',
         has_virtual_view: '0',
-        lowest_total_price: '0',
+        lowest_total_price: '1380000',
         price_show_config: '1',
-        show_price: '18200',
+        show_price: '12800',
         show_price_unit: '元/平',
         show_price_desc: '均价',
         show_price_confirm_time: '',
@@ -1413,33 +1275,33 @@ const obj = {
         subway_distance: '',
         is_cooperation: '0',
         evaluate_status: '0',
-        show_price_info: '均价18200元/平',
+        show_price_info: '均价12800元/平',
         brand_id: '',
         preload_detail_image: [
           {
-            id: 'img_6904772',
-            image_id: '6904772',
-            type_id: '101900000004',
-            type_name: '效果图',
+            id: 'img_6776840',
+            image_id: '6776840',
+            type_id: '102100000003',
+            type_name: '楼栋',
             image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/43f87b0643580c21d720fb877208d496.jpg',
+              'https://ke-image.ljcdn.com/newhouse-user-image/533673920f1f50ba80189bf19f7d56bf.jpg',
             title: '',
             desc: '',
             extend: null,
             vr_info: null,
             video_info: null,
             image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/43f87b0643580c21d720fb877208d496.jpg!m_fill,w_60,l_fbk,q_90',
+              'https://image1.ljcdn.com/newhouse-user-image/533673920f1f50ba80189bf19f7d56bf.jpg!m_fill,w_60,l_fbk,q_90',
             image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/43f87b0643580c21d720fb877208d496.jpg!m_fill,w_750,h_562,l_fbk',
+              'https://image1.ljcdn.com/newhouse-user-image/533673920f1f50ba80189bf19f7d56bf.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/43f87b0643580c21d720fb877208d496.jpg!m_fill,w_1440,l_fbk'
+              'https://image1.ljcdn.com/newhouse-user-image/533673920f1f50ba80189bf19f7d56bf.jpg!m_fill,w_1440,l_fbk'
           }
         ],
-        reference_avg_price: '18200',
+        reference_avg_price: '12800',
         reference_avg_price_unit: '元/㎡',
         reference_avg_price_desc: '参考均价',
-        reference_total_price: '600-610',
+        reference_total_price: '138-173',
         reference_total_price_unit: '(万/套)',
         reference_total_price_desc: '总价',
         new_sale_tags: [],
@@ -1447,78 +1309,82 @@ const obj = {
         is_support_online_sale: '0',
         is_undertake: '0',
         properright: '70年',
-        developer_company: ['湖南鼎邦房地产开发有限公司'],
-        property_company: ['长沙怡盛物业管理有限公司'],
+        developer_company: ['湖南园康九道湾置业有限公司'],
+        property_company: ['湖南鸿运物业管理集团股份有限公司'],
         live_tag: '0',
         prod: '1',
         reference_total_price_range: {
-          price: '600-610',
+          price: '138-173',
           price_unit: '万/套',
           price_desc: '参考总价'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
         house_node: '0',
-        total_price_start: '600',
+        total_price_start: '138',
         total_price_start_unit: '万/套',
-        avg_price_start: '18208',
+        avg_price_start: '12846',
         avg_price_start_unit: '元/平',
         on_time: '0000-00-00 00:00:00',
-        project_desc: '',
+        project_desc: '园康新天地',
         has_car_activity: '0',
         is_new_sale: '0',
         first_tags: [],
         m_first_tags: [],
-        fb_expo_id: '651070634482368520',
+        fb_expo_id: '651372743283077197',
         strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368520","fb_item_location":"8","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"681192"}',
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077197","fb_item_location":"7","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"672781"}',
         recommend_log_info: '',
-        recommend_reason: null,
+        recommend_reason: {
+          type: '4',
+          name: '楼盘亮点',
+          details: '园康新天地'
+        },
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
         user_info: {
           is_follow: '0'
         },
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=yjfbmtrs&parentSceneId=6394272835454671881&fb_expo_id=651070634482368520',
+          'lianjiabeike://newhouse/detail?project_name=ykydybmhgf&parentSceneId=6395481270978657800&fb_expo_id=651372743283077197',
         filter_desc: '',
-        url: '/loupan/p_yjfbmtrs/'
+        url: '/loupan/p_ykydybmhgf/'
       },
       {
         item_type: '0',
         item_type_desc: '',
-        pid: '681263',
-        id: '35000000040267',
+        pid: '675745',
+        id: '35000000027284',
         city_id: '430100',
         city_name: '长沙市',
         cover_pic:
-          'https://ke-image.ljcdn.com/newhouse-user-image/ab736ee6efd76565881746d075145bb4.JPG',
-        min_frame_area: '180',
-        max_frame_area: '310',
-        district_name: '岳麓',
-        district: '岳麓',
-        district_id: '23008766',
-        bizcircle_id: '611101166',
-        bizcircle_name: '洋湖垸',
-        build_id: '35000000040267',
+          'https://ke-image.ljcdn.com/newhouse-user-image/7342800d980f1863f550e7e2850cfa10.jpg',
+        min_frame_area: '111',
+        max_frame_area: '130',
+        district_name: '望城',
+        district: '望城',
+        district_id: '430122',
+        bizcircle_id: '0',
+        bizcircle_name: '',
+        build_id: '35000000027284',
         permit_all_ready: '1',
         process_status: '3',
-        resblock_frame_area: '建面 180-310㎡',
-        resblock_frame_area_range: '180-310㎡',
+        resblock_frame_area: '建面 111-130㎡',
+        resblock_frame_area_range: '111-130㎡',
         resblock_frame_area_desc: '建面',
-        decoration: '毛坯',
-        longitude: '112.91624392166',
-        latitude: '28.124769914647',
-        frame_rooms_desc: '5/6/7居',
-        title: '中建·钰山湖',
-        resblock_name: '中建·钰山湖',
-        resblock_alias: '中建钰山湖',
-        address: '翠荷路中建·钰山湖',
-        store_addr: '长沙市岳麓区翠荷路和连塘路交会处',
+        decoration: '非毛坯',
+        longitude: '112.83380086221',
+        latitude: '28.226062966788',
+        frame_rooms_desc: '3/4居',
+        title: '天健云麓府',
+        resblock_name: '天健云麓府',
+        resblock_alias: '天健西苑',
+        address: '金洲大道天健云麓府',
+        store_addr: '岳麓区金洲大道与汇智路交汇处东南角',
         avg_unit_price: '0',
-        average_price: '18000',
-        address_remark: '翠荷路中建·钰山湖',
-        project_name: 'zjyshbmtul',
+        average_price: '12700',
+        address_remark: '金洲大道天健云麓府',
+        project_name: 'bmlqf',
         special_tags: [],
         special: {
           lianjia_special: [],
@@ -1530,20 +1396,26 @@ const obj = {
         frame_rooms: [],
         converged_rooms: [
           {
-            bedroom_count: '5',
-            area_range: '180㎡'
+            bedroom_count: '3',
+            area_range: '111㎡'
           },
           {
-            bedroom_count: '6',
-            area_range: '208㎡'
-          },
-          {
-            bedroom_count: '7',
-            area_range: '245-310㎡'
+            bedroom_count: '4',
+            area_range: '130㎡'
           }
         ],
-        tags: ['品牌房企', 'VR看房', '低密居所', '大型社区'],
+        tags: ['多轨交汇', '亲子乐园', '品牌房企', 'VR看房'],
         project_tags: [
+          {
+            id: '45',
+            desc: '多轨交汇',
+            color: ''
+          },
+          {
+            id: '57',
+            desc: '亲子乐园',
+            color: ''
+          },
           {
             id: '13',
             desc: '品牌房企',
@@ -1553,16 +1425,6 @@ const obj = {
             id: '119',
             desc: 'VR看房',
             color: ''
-          },
-          {
-            id: '18',
-            desc: '低密居所',
-            color: ''
-          },
-          {
-            id: '21',
-            desc: '大型社区',
-            color: ''
           }
         ],
         house_type: '住宅',
@@ -1571,11 +1433,11 @@ const obj = {
         has_evaluate: '0',
         has_vr_house: '1',
         has_short_video: '0',
-        open_date: '2022-10-25',
+        open_date: '2022-04-23',
         has_virtual_view: '1',
-        lowest_total_price: '0',
+        lowest_total_price: '1380000',
         price_show_config: '1',
-        show_price: '18000',
+        show_price: '12700',
         show_price_unit: '元/平',
         show_price_desc: '均价',
         show_price_confirm_time: '',
@@ -1584,33 +1446,33 @@ const obj = {
         subway_distance: '',
         is_cooperation: '2',
         evaluate_status: '0',
-        show_price_info: '均价18000元/平',
-        brand_id: '260',
+        show_price_info: '均价12700元/平',
+        brand_id: '1352049409884216',
         preload_detail_image: [
           {
-            id: 'img_6920651',
-            image_id: '6920651',
-            type_id: '101900000004',
-            type_name: '效果图',
+            id: 'img_6840700',
+            image_id: '6840700',
+            type_id: '102100000003',
+            type_name: '楼栋',
             image_url:
-              'https://ke-image.ljcdn.com/newhouse-user-image/ab736ee6efd76565881746d075145bb4.JPG',
+              'https://ke-image.ljcdn.com/newhouse-user-image/b405fa60536f8b78db0620dbc85dfdcf.jpg',
             title: '',
             desc: '',
             extend: null,
             vr_info: null,
             video_info: null,
             image_list_blurry_url:
-              'https://image1.ljcdn.com/newhouse-user-image/ab736ee6efd76565881746d075145bb4.JPG!m_fill,w_60,l_fbk,q_90',
+              'https://image1.ljcdn.com/newhouse-user-image/b405fa60536f8b78db0620dbc85dfdcf.jpg!m_fill,w_60,l_fbk,q_90',
             image_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/ab736ee6efd76565881746d075145bb4.JPG!m_fill,w_750,h_562,l_fbk',
+              'https://image1.ljcdn.com/newhouse-user-image/b405fa60536f8b78db0620dbc85dfdcf.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/ab736ee6efd76565881746d075145bb4.JPG!m_fill,w_1440,l_fbk'
+              'https://image1.ljcdn.com/newhouse-user-image/b405fa60536f8b78db0620dbc85dfdcf.jpg!m_fill,w_1440,l_fbk'
           }
         ],
-        reference_avg_price: '18000',
+        reference_avg_price: '12700',
         reference_avg_price_unit: '元/㎡',
         reference_avg_price_desc: '参考均价',
-        reference_total_price: '300-620',
+        reference_total_price: '145-162',
         reference_total_price_unit: '(万/套)',
         reference_total_price_desc: '总价',
         new_sale_tags: [],
@@ -1618,21 +1480,21 @@ const obj = {
         is_support_online_sale: '0',
         is_undertake: '0',
         properright: '70年',
-        developer_company: ['湖南中建信和钰山湖置业有限公司'],
-        property_company: ['中建物业'],
+        developer_company: ['长沙市天健置业有限公司'],
+        property_company: ['天健物业'],
         live_tag: '0',
         prod: '1',
         reference_total_price_range: {
-          price: '300-620',
+          price: '145-162',
           price_unit: '万/套',
           price_desc: '参考总价'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
         house_node: '0',
-        total_price_start: '300',
+        total_price_start: '145',
         total_price_start_unit: '万/套',
-        avg_price_start: '16666',
+        avg_price_start: '12461',
         avg_price_start_unit: '元/平',
         on_time: '0000-00-00 00:00:00',
         project_desc: '',
@@ -1640,31 +1502,206 @@ const obj = {
         is_new_sale: '0',
         first_tags: [],
         m_first_tags: [],
-        fb_expo_id: '651070634482368521',
+        fb_expo_id: '651372743283077198',
         strategy_info:
-          '{"fb_query_id":"651070634192961536","fb_expo_id":"651070634482368521","fb_item_location":"9","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"681263"}',
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077198","fb_item_location":"8","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"675745"}',
         recommend_log_info: '',
-        recommend_reason: null,
+        recommend_data: {
+          type: '1',
+          reason: null
+        },
+        recommend_reason: {
+          type: '4',
+          name: '推荐理由',
+          details: '长沙市望城销量榜第10名'
+        },
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
         user_info: {
           is_follow: '0'
         },
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=zjyshbmtul&parentSceneId=6394272835454671882&fb_expo_id=651070634482368521',
+          'lianjiabeike://newhouse/detail?project_name=bmlqf&parentSceneId=6395481270978657801&fb_expo_id=651372743283077198',
         filter_desc: '',
-        url: '/loupan/p_zjyshbmtul/'
+        url: '/loupan/p_bmlqf/'
+      },
+      {
+        item_type: '0',
+        item_type_desc: '',
+        pid: '6720',
+        id: '3511099906135',
+        city_id: '430100',
+        city_name: '长沙市',
+        cover_pic:
+          'https://ke-image.ljcdn.com/hdic-resblock/afe1559e-48a5-4e08-8e19-fc4c20b7b03f.jpg',
+        min_frame_area: '98',
+        max_frame_area: '110',
+        district_name: '芙蓉',
+        district: '芙蓉',
+        district_id: '23008767',
+        bizcircle_id: '613000745',
+        bizcircle_name: '汽车东站',
+        build_id: '3511099906135',
+        permit_all_ready: '1',
+        process_status: '3',
+        resblock_frame_area: '建面 98-110㎡',
+        resblock_frame_area_range: '98-110㎡',
+        resblock_frame_area_desc: '建面',
+        decoration: '非毛坯',
+        longitude: '113.0578625562',
+        latitude: '28.210719342946',
+        frame_rooms_desc: '3居',
+        title: '恒大江湾',
+        resblock_name: '恒大江湾',
+        resblock_alias: '长沙恒大江湾',
+        address: '远大路与农园路交汇处东北角',
+        store_addr: '芙蓉区远大路与农园路交汇处东南角（临近汽车东站）',
+        avg_unit_price: '0',
+        average_price: '12600',
+        address_remark: '远大路与农园路交汇处东北角',
+        project_name: 'aajym',
+        special_tags: [],
+        special: {
+          lianjia_special: [],
+          lianjia_special_comm: '',
+          developer_special: [],
+          developer_special_type: '',
+          developer_special_comm: ''
+        },
+        frame_rooms: [],
+        converged_rooms: [
+          {
+            bedroom_count: '3',
+            area_range: '98-109.98㎡'
+          }
+        ],
+        tags: ['公交直达', '环线房', '配套齐全', '成熟商圈'],
+        project_tags: [
+          {
+            id: '2',
+            desc: '公交直达',
+            color: ''
+          },
+          {
+            id: '23',
+            desc: '环线房',
+            color: ''
+          },
+          {
+            id: '4',
+            desc: '配套齐全',
+            color: ''
+          },
+          {
+            id: '53',
+            desc: '成熟商圈',
+            color: ''
+          }
+        ],
+        house_type: '住宅',
+        house_type_value: '107500000003',
+        sale_status: '在售',
+        has_evaluate: '0',
+        has_vr_house: '0',
+        has_short_video: '1',
+        open_date: '2020-11-22',
+        has_virtual_view: '0',
+        lowest_total_price: '1300000',
+        price_show_config: '1',
+        show_price: '12600',
+        show_price_unit: '元/平',
+        show_price_desc: '均价',
+        show_price_confirm_time: '1118天',
+        price_confirm_time: '2019-11-10 23:08:22',
+        status: '2',
+        subway_distance: '',
+        is_cooperation: '0',
+        evaluate_status: '0',
+        show_price_info: '均价12600元/平',
+        brand_id: '3',
+        preload_detail_image: [
+          {
+            id: 'img_2956930',
+            image_id: '2956930',
+            type_id: '101900000001',
+            type_name: '实景图',
+            image_url:
+              'https://ke-image.ljcdn.com/hdic-resblock/18c89b00-3d89-424d-8244-792279c39aab.jpg',
+            title: '',
+            desc: '',
+            extend: null,
+            vr_info: null,
+            video_info: null,
+            image_list_blurry_url:
+              'https://image1.ljcdn.com/hdic-resblock/18c89b00-3d89-424d-8244-792279c39aab.jpg!m_fill,w_60,l_fbk,q_90',
+            image_size_url:
+              'https://image1.ljcdn.com/hdic-resblock/18c89b00-3d89-424d-8244-792279c39aab.jpg!m_fill,w_750,h_562,l_fbk',
+            image_list_size_url:
+              'https://image1.ljcdn.com/hdic-resblock/18c89b00-3d89-424d-8244-792279c39aab.jpg!m_fill,w_1440,l_fbk'
+          }
+        ],
+        reference_avg_price: '12600',
+        reference_avg_price_unit: '元/㎡',
+        reference_avg_price_desc: '参考均价',
+        reference_total_price: '122-138',
+        reference_total_price_unit: '(万/套)',
+        reference_total_price_desc: '总价',
+        new_sale_tags: [],
+        is_followed: '0',
+        is_support_online_sale: '0',
+        is_undertake: '0',
+        properright: '70年',
+        developer_company: ['长沙鑫芙置业有限公司'],
+        property_company: ['恒大金碧物业有限公司'],
+        live_tag: '0',
+        prod: '1',
+        reference_total_price_range: {
+          price: '122-138',
+          price_unit: '万/套',
+          price_desc: '参考总价'
+        },
+        sale_status_color: '5F94FF',
+        house_type_color: 'FB9252',
+        house_node: '0',
+        total_price_start: '122',
+        total_price_start_unit: '万/套',
+        avg_price_start: '12448',
+        avg_price_start_unit: '元/平',
+        on_time: '2017-10-11 17:51:30',
+        project_desc: '浏阳河旁品牌社区',
+        has_car_activity: '0',
+        is_new_sale: '0',
+        first_tags: [],
+        m_first_tags: [],
+        fb_expo_id: '651372743283077199',
+        strategy_info:
+          '{"fb_query_id":"651372742922366976","fb_expo_id":"651372743283077199","fb_item_location":"9","fb_service_id":"1012810001","fb_ab_test_flag":null,"fb_item_id":"6720"}',
+        recommend_log_info: '',
+        recommend_reason: {
+          type: '4',
+          name: '楼盘亮点',
+          details: '浏阳河旁品牌社区'
+        },
+        reference_total_price_tips:
+          '该价格为参考价格，实际价格以开发商价格为准',
+        user_info: {
+          is_follow: '0'
+        },
+        app_detail_url:
+          'lianjiabeike://newhouse/detail?project_name=aajym&parentSceneId=6395481270978657802&fb_expo_id=651372743283077199',
+        filter_desc: '',
+        url: '/loupan/p_aajym/'
       }
     ],
     switch_city: [],
-    total: '299',
+    total: '300',
     no_result_resblocks: [],
     few_result_resblocks: [],
     selected: {
       district: [],
       subway: [],
       pager: {
-        page: 1,
+        page: 8,
         pagesize: 10
       },
       price: [],
@@ -1850,15 +1887,15 @@ const obj = {
         first_tags: [],
         m_first_tags: [],
         strategy_info:
-          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r166996333565397675617274589710","fb_item_detail":"xhdashczbmroo","fb_item_location":"0","fb_item_type":"xinfang_project_name","fb_query_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_request_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_response_ts":"1669963335","fb_service_id":"500007","fb_strategy_id":"10000779","fb_source_id":"default"}',
-        fb_expo_id: 'r166996333565397675617274589710',
+          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r167003536403142458513874786550","fb_item_detail":"xhdashczbmroo","fb_item_location":"0","fb_item_type":"xinfang_project_name","fb_query_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_request_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_response_ts":"1670035364","fb_service_id":"500007","fb_strategy_id":"10000779","fb_source_id":"default"}',
+        fb_expo_id: 'r167003536403142458513874786550',
         recommend_log_info: '',
         is_train: '0',
         recommend_reason: null,
         reco_spec_info: [],
         extra_info: [],
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=xhdashczbmroo&parentSceneId=6394272836460540417&fb_expo_id=r166996333565397675617274589710',
+          'lianjiabeike://newhouse/detail?project_name=xhdashczbmroo&parentSceneId=6395481272065906689&fb_expo_id=r167003536403142458513874786550',
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
         url: '/loupan/p_xhdashczbmroo/'
@@ -1949,7 +1986,7 @@ const obj = {
         show_price: '13600',
         show_price_unit: '元/平',
         show_price_desc: '均价',
-        show_price_confirm_time: '910天',
+        show_price_confirm_time: '911天',
         price_confirm_time: '2020-06-04 15:39:28',
         status: '2',
         subway_distance: '',
@@ -2012,15 +2049,15 @@ const obj = {
         first_tags: [],
         m_first_tags: [],
         strategy_info:
-          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r166996333565397675617274589711","fb_item_detail":"dylycjbktai","fb_item_location":"1","fb_item_type":"xinfang_project_name","fb_query_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_request_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_response_ts":"1669963335","fb_service_id":"500007","fb_strategy_id":"10000779","fb_source_id":"default"}',
-        fb_expo_id: 'r166996333565397675617274589711',
+          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r167003536403142458513874786551","fb_item_detail":"dylycjbktai","fb_item_location":"1","fb_item_type":"xinfang_project_name","fb_query_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_request_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_response_ts":"1670035364","fb_service_id":"500007","fb_strategy_id":"10000779","fb_source_id":"default"}',
+        fb_expo_id: 'r167003536403142458513874786551',
         recommend_log_info: '',
         is_train: '0',
         recommend_reason: null,
         reco_spec_info: [],
         extra_info: [],
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=dylycjbktai&parentSceneId=6394272836460540418&fb_expo_id=r166996333565397675617274589711',
+          'lianjiabeike://newhouse/detail?project_name=dylycjbktai&parentSceneId=6395481272065906690&fb_expo_id=r167003536403142458513874786551',
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
         url: '/loupan/p_dylycjbktai/'
@@ -2178,15 +2215,15 @@ const obj = {
         first_tags: [],
         m_first_tags: [],
         strategy_info:
-          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r166996333565397675617274589712","fb_item_detail":"jmcsgjsqbmndw","fb_item_location":"2","fb_item_type":"xinfang_project_name","fb_query_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_request_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_response_ts":"1669963335","fb_service_id":"500007","fb_strategy_id":"10000779","fb_source_id":"default"}',
-        fb_expo_id: 'r166996333565397675617274589712',
+          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r167003536403142458513874786552","fb_item_detail":"jmcsgjsqbmndw","fb_item_location":"2","fb_item_type":"xinfang_project_name","fb_query_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_request_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_response_ts":"1670035364","fb_service_id":"500007","fb_strategy_id":"10000779","fb_source_id":"default"}',
+        fb_expo_id: 'r167003536403142458513874786552',
         recommend_log_info: '',
         is_train: '0',
         recommend_reason: null,
         reco_spec_info: [],
         extra_info: [],
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=jmcsgjsqbmndw&parentSceneId=6394272836460540419&fb_expo_id=r166996333565397675617274589712',
+          'lianjiabeike://newhouse/detail?project_name=jmcsgjsqbmndw&parentSceneId=6395481272065906691&fb_expo_id=r167003536403142458513874786552',
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
         url: '/loupan/p_jmcsgjsqbmndw/'
@@ -2285,7 +2322,7 @@ const obj = {
         show_price: '11800',
         show_price_unit: '元/平',
         show_price_desc: '均价',
-        show_price_confirm_time: '1303天',
+        show_price_confirm_time: '1304天',
         price_confirm_time: '2019-05-08 20:14:16',
         status: '2',
         subway_distance: '距1号线省政府·清风站0米',
@@ -2348,8 +2385,8 @@ const obj = {
         first_tags: [],
         m_first_tags: [],
         strategy_info:
-          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r166996333565397675617274589713","fb_item_detail":"xyyxsbjqfq","fb_item_location":"3","fb_item_type":"xinfang_project_name","fb_query_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_request_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_response_ts":"1669963335","fb_service_id":"500007","fb_strategy_id":"10000239","fb_source_id":"default"}',
-        fb_expo_id: 'r166996333565397675617274589713',
+          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r167003536403142458513874786553","fb_item_detail":"xyyxsbjqfq","fb_item_location":"3","fb_item_type":"xinfang_project_name","fb_query_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_request_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_response_ts":"1670035364","fb_service_id":"500007","fb_strategy_id":"10000239","fb_source_id":"default"}',
+        fb_expo_id: 'r167003536403142458513874786553',
         recommend_log_info: '',
         is_train: '0',
         recommend_reason: {
@@ -2360,7 +2397,7 @@ const obj = {
         reco_spec_info: [],
         extra_info: [],
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=xyyxsbjqfq&parentSceneId=6394272836460540420&fb_expo_id=r166996333565397675617274589713',
+          'lianjiabeike://newhouse/detail?project_name=xyyxsbjqfq&parentSceneId=6395481272065906692&fb_expo_id=r167003536403142458513874786553',
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
         url: '/loupan/p_xyyxsbjqfq/'
@@ -2518,8 +2555,8 @@ const obj = {
         first_tags: [],
         m_first_tags: [],
         strategy_info:
-          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r166996333565397675617274589714","fb_item_detail":"wkslgybmiet","fb_item_location":"4","fb_item_type":"xinfang_project_name","fb_query_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_request_id":"20221202144215136_MBR_f7f29cab1558412e8fa92669868f1afa","fb_response_ts":"1669963335","fb_service_id":"500007","fb_strategy_id":"10000239","fb_source_id":"default"}',
-        fb_expo_id: 'r166996333565397675617274589714',
+          '{"fb_ab_test_flag":"reco_rule-500007-default-default","fb_context_id":"{\\"req_source_type\\":\\"beike_pc\\"}","fb_expo_id":"r167003536403142458513874786554","fb_item_detail":"wkslgybmiet","fb_item_location":"4","fb_item_type":"xinfang_project_name","fb_query_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_request_id":"20221203104243818_MBR_5fa1a139771c4ed6b2ca9ec40e48d1ca","fb_response_ts":"1670035364","fb_service_id":"500007","fb_strategy_id":"10000239","fb_source_id":"default"}',
+        fb_expo_id: 'r167003536403142458513874786554',
         recommend_log_info: '',
         is_train: '0',
         recommend_reason: {
@@ -2530,7 +2567,7 @@ const obj = {
         reco_spec_info: [],
         extra_info: [],
         app_detail_url:
-          'lianjiabeike://newhouse/detail?project_name=wkslgybmiet&parentSceneId=6394272836460540421&fb_expo_id=r166996333565397675617274589714',
+          'lianjiabeike://newhouse/detail?project_name=wkslgybmiet&parentSceneId=6395481272065906693&fb_expo_id=r167003536403142458513874786554',
         reference_total_price_tips:
           '该价格为参考价格，实际价格以开发商价格为准',
         url: '/loupan/p_wkslgybmiet/'
@@ -2538,4 +2575,3 @@ const obj = {
     ]
   }
 }
-export default obj

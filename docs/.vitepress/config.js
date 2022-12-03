@@ -42,7 +42,8 @@ const generateSideBar = () => {
       collapsible: true,
       items: [
         { text: '房价', link: '/guide/fangjia' },
-        { text: '行业和职业', link: '/guide/hangye' }
+        { text: '行业 职业 就业', link: '/guide/hangye' },
+        { text: '营销 获得百姓心智', link: '/guide/marketing' }
       ]
     },
     {
@@ -54,9 +55,13 @@ const generateSideBar = () => {
         { text: '中国十四五与2035远景目标', link: '/guide/145-china' }
       ]
     },
-
     {
-      text: '城市专题',
+      text: '新型城镇化',
+      collapsible: true,
+      items: [{ text: '新一代城镇化是什么', link: '/guide/what-is-czh' }]
+    },
+    {
+      text: '城市专题 洞察每个城市',
       collapsible: true,
       items: [
         {
