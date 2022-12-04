@@ -1,13 +1,11 @@
 <script setup>
-import { reactive } from 'vue'
+import { ref, onMounted, reactive } from 'vue'
 import { PivotSheet } from '@antv/s2'
 import { Button, Table } from 'ant-design-vue'
-
 import 'ant-design-vue/dist/antd.css'
 import axios from 'axios'
-import { ref, onMounted } from 'vue'
 import LIST from '../../../mock/changsha'
-
+import { setWaterMark } from '../../utils/watermark'
 const list = ref([])
 
 const setData = () => {
@@ -32,6 +30,7 @@ const renderTable = () => {
 }
 const init = () => {
   setData() // 数据装载
+  setWaterMark('视野中国', 'vanlee')
   // renderTable()
 }
 onMounted(() => {
@@ -40,7 +39,8 @@ onMounted(() => {
 </script>
 <template>
   <div>
-    <div id="table-container">
+    <div class="total-num">以下有{{ list.length }}个小区</div>
+    <div class="table-container">
       <table>
         <tr v-for="(item, k) in list">
           <td>{{ item.name }}</td>
@@ -51,10 +51,8 @@ onMounted(() => {
   </div>
 </template>
 
-<style lang="scss" scoped>
-.row {
-  // border: 2px solid red;
-  display: flex;
-  justify-content: space-between;
+<style>
+* {
+  -webkit-user-select: none;
 }
 </style>

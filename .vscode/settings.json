@@ -1,3 +1,9 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "picgo.picBed.current": "github",
+  "picgo.picBed.github.customUrl": "https://cdn.statically.io/gh/yayxs/picture-image@master",
+  "picgo.picBed.github.branch": "master",
+  "picgo.picBed.github.repo": "yayxs/picture-image",
+  "picgo.picBed.github.token": "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",
+  "picgo.picBed.github.path": "china-city/"
 }

@@ -87,7 +87,7 @@ const generateSideBar = () => {
       text: '其他',
       collapsible: true,
       items: [
-        { text: '重点专有名词解析', link: '/guide/proper-noun' },
+        { text: '重点名词解析', link: '/guide/proper-noun' },
         { text: '始终保持学习心态', link: '/guide/keep-learning' },
         {
           text: '作者买房日志与心得',
