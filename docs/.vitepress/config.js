@@ -30,6 +30,7 @@ const generateSideBar = () => {
       textEN: 'Outline / 大纲',
       collapsible: true,
       items: [
+        { text: '打开地图', link: '/guide/map' },
         { text: '首先了解中国所有的省份', link: '/guide/province' },
         { text: '其次知道省份下的所有城市', link: '/guide/province-city' },
         { text: '接着选择一个适合你的城市', link: '/guide/how-to-choose' },

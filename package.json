@@ -1,6 +1,6 @@
 {
   "name": "china-city",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "视野中国 程序员视角看中国城市",
   "scripts": {
     "dev": "vitepress dev docs",
