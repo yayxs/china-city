@@ -33,5 +33,7 @@
 无非就是大名鼎鼎的一线城市工资高，但是你想一想，你买得起房子吗？买的起直接×掉吧，看点别的。买不起的话就想想除了这些地方，哪些地方还能有收入呢，如果能生存下去或者生活下去就更好了。先说说武汉吧，这也是 2023年5月中旬之前要做的。那么你看看这个文件吧
 
 <br />
+<div>
+<a href="http://htmlpreview.github.io/?https://github.com/yayxs/china-city/blob/main/it-company-wuhan.html" target="_blank" />武汉IT互联网公司</a>
 
-<a href="http://htmlpreview.github.io/?" target="_blank" />https://github.com/yayxs/china-city/issues/1</a>
+</div>
