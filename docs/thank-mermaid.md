@@ -1,4 +1,4 @@
-# 感谢技术
+# mermaid
 
 - 项目构建，依赖 `vitepress` `vue` `ts`
 - 文档 使用`md` 语法
