@@ -1,13 +1,8 @@
 {
   "name": "china-city",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "视野中国 程序员视角看中国城市",
-  "scripts": {
-    "dev": "vitepress dev docs",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yayxs/vision-china.git"
