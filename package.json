@@ -1,6 +1,6 @@
 {
   "name": "china-city",
-  "version": "0.0.4",
+  "version": "3.0.1",
   "description": "互联网人城市选择指南",
   "scripts": {
     "dev": "astro dev",
