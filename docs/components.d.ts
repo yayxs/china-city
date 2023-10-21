@@ -7,6 +7,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    ATable: typeof import('ant-design-vue/es')['Table']
+    ATable: (typeof import('ant-design-vue/es'))['Table']
   }
 }

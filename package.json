@@ -1,18 +1,24 @@
 {
   "name": "china-city",
-  "version": "3.0.0",
-  "description": "视野中国 程序员视角看中国城市",
-  "scripts": {},
+  "version": "0.0.4",
+  "description": "互联网人城市选择指南",
+  "scripts": {
+    "dev": "astro dev",
+    "prettier": "prettier --write . --plugin=prettier-plugin-astro"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yayxs/vision-china.git"
+    "url": "git+https://github.com/yayxs/china-city.git"
   },
   "keywords": [
     "china",
     "city",
     "中国城市",
     "买房",
-    "房价"
+    "房价",
+    "vision-china",
+    "视野中国",
+    "程序员视角看中国城市"
   ],
   "author": "vanlee",
   "license": "MIT",
@@ -26,11 +32,12 @@
     "@antv/g2plot": "^2.4.20",
     "@antv/s2": "^1.35.0",
     "@antv/s2-vue": "^1.4.0",
+    "@astrojs/mdx": "^1.1.2",
+    "@astrojs/vercel": "^5.0.1",
     "ant-design-vue": "^3.2.15",
+    "astro": "^3.3.2",
     "axios": "^1.2.0",
     "typescript": "^4.8.4",
-    "vite": "^3.2.4",
-    "vitepress": "1.0.0-alpha.29",
     "vue": "^3.2.45"
   },
   "devDependencies": {
@@ -39,9 +46,8 @@
     "markdown-it": "^13.0.1",
     "mermaid": "9.1.7",
     "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.12.0",
     "sass": "^1.56.1",
-    "unplugin-vue-components": "^0.22.11",
-    "vitepress-plugin-mermaid": "^2.0.8",
-    "vitepress-plugin-search": "1.0.4-alpha.15"
+    "unplugin-vue-components": "^0.22.11"
   }
 }

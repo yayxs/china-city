@@ -24,58 +24,58 @@ import all16 from '../mock/changsha/all16.js'
 import all17 from '../mock/changsha/all17.js'
 import all18 from '../mock/changsha/all18.js'
 const {
-  data: { list: data1 },
+  data: { list: data1 }
 } = all1
 const {
-  data: { list: data2 },
+  data: { list: data2 }
 } = all2
 const {
-  data: { list: data3 },
+  data: { list: data3 }
 } = all3
 const {
-  data: { list: data4 },
+  data: { list: data4 }
 } = all4
 const {
-  data: { list: data5 },
+  data: { list: data5 }
 } = all5
 const {
-  data: { list: data6 },
+  data: { list: data6 }
 } = all6
 const {
-  data: { list: data7 },
+  data: { list: data7 }
 } = all7
 const {
-  data: { list: data8 },
+  data: { list: data8 }
 } = all8
 const {
-  data: { list: data9 },
+  data: { list: data9 }
 } = all9
 const {
-  data: { list: data10 },
+  data: { list: data10 }
 } = all10
 const {
-  data: { list: data11 },
+  data: { list: data11 }
 } = all11
 const {
-  data: { list: data12 },
+  data: { list: data12 }
 } = all12
 const {
-  data: { list: data13 },
+  data: { list: data13 }
 } = all13
 const {
-  data: { list: data14 },
+  data: { list: data14 }
 } = all14
 const {
-  data: { list: data15 },
+  data: { list: data15 }
 } = all15
 const {
-  data: { list: data16 },
+  data: { list: data16 }
 } = all16
 const {
-  data: { list: data17 },
+  data: { list: data17 }
 } = all17
 const {
-  data: { list: data18 },
+  data: { list: data18 }
 } = all18
 console.log(data1)
 // const data = [
@@ -111,7 +111,7 @@ const allData = [
   ...data15,
   ...data16,
   ...data17,
-  ...data18,
+  ...data18
 ]
 
 const LEN = allData.length
@@ -132,25 +132,25 @@ allData.forEach((it) => {
 const data = allData.map((it) => ({
   name: it.title,
   value: parseFloat(it.show_price),
-  district: it.district,
+  district: it.district
 }))
 
 const chart = new G2.Chart({
   container: 'all-container',
   autoFit: true,
   height: 600,
-  padding: [20, 100, 50, 120],
+  padding: [20, 100, 50, 120]
 })
 
 chart.data(data)
 chart.scale({
   value: {
-    alias: '平/X元',
-  },
+    alias: '平/X元'
+  }
 })
 chart.axis('name', {
   tickLine: null,
-  line: null,
+  line: null
 })
 chart.axis('value', {
   label: null,
@@ -158,13 +158,13 @@ chart.axis('value', {
     offset: 30,
     style: {
       fontWeight: 800,
-      fontSize: 20,
-    },
+      fontSize: 20
+    }
   },
-  grid: null,
+  grid: null
 })
 chart.legend({
-  position: 'right',
+  position: 'right'
 })
 chart.coordinate('rect').transpose()
 chart
@@ -190,17 +190,17 @@ chart
     '#FFCF9D',
     '#CCDC8A',
     '#8D00A1',
-    '#1CC25E',
+    '#1CC25E'
   ])
   .size(26)
   .label('value', {
     style: {
-      fill: '#8d8d8d',
+      fill: '#8d8d8d'
     },
     offset: 10,
     content: (originData) => {
       return (originData.value + '').replace(/(\d)(?=(?:\d{3})+$)/g, '$1,')
-    },
+    }
   })
 
 chart.interaction('element-active')
@@ -209,13 +209,13 @@ chart.interaction('plot-mousewheel-scroll', {
     {
       trigger: 'plot:mousewheel',
       action: 'mousewheel-scroll:scroll',
-      arg: { wheelDelta: 5 },
-    },
-  ],
+      arg: { wheelDelta: 5 }
+    }
+  ]
 })
 chart.option('scrollbar', {
   // 滚动条类型： 'horizontal' / 'vertical'
-  type: 'vertical',
+  type: 'vertical'
 })
 chart.render()
 
@@ -223,13 +223,13 @@ function renderLine(allData) {
   const data = allData.map((it) => ({
     name: it.title,
     value: parseFloat(it.show_price),
-    district: it.district,
+    district: it.district
   }))
   const chart = new G2.Chart({
     container: 'line-container',
     autoFit: true,
     height: 800,
-    padding: [20, 100, 80, 120],
+    padding: [20, 100, 80, 120]
   })
 
   chart.data(data)
@@ -237,15 +237,15 @@ function renderLine(allData) {
 
   chart.tooltip({
     showCrosshairs: true,
-    shared: true,
+    shared: true
   })
 
   chart.axis('value', {
     label: {
       formatter: (val) => {
         return val + '元'
-      },
-    },
+      }
+    }
   })
 
   chart.line().position('name*value').color('district').shape('smooth')

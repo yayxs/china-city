@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "astro dev"
+  },
+  "dependencies": {
+    "astro": "^3.3.2"
+  }
+}

@@ -49,24 +49,24 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '3', area_range: '110\u33a1' },
-          { bedroom_count: '4', area_range: '130-173\u33a1' },
+          { bedroom_count: '4', area_range: '130-173\u33a1' }
         ],
         tags: [
           '\u4e34\u8fd1\u9ad8\u901f',
           '\u6210\u719f\u5546\u5708',
           '\u89c6\u9891\u770b\u623f',
-          'VR\u770b\u623f',
+          'VR\u770b\u623f'
         ],
         project_tags: [
           { id: '46', desc: '\u4e34\u8fd1\u9ad8\u901f', color: '' },
           { id: '53', desc: '\u6210\u719f\u5546\u5708', color: '' },
           { id: '89', desc: '\u89c6\u9891\u770b\u623f', color: '' },
-          { id: '119', desc: 'VR\u770b\u623f', color: '' },
+          { id: '119', desc: 'VR\u770b\u623f', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -107,8 +107,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/83411a4774a6fe80afd67800480d83b3.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/83411a4774a6fe80afd67800480d83b3.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/83411a4774a6fe80afd67800480d83b3.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13300',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -122,7 +122,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u6e56\u5357\u5fb7\u5965\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8',
+          '\u6e56\u5357\u5fb7\u5965\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -130,7 +130,7 @@ export default {
         reference_total_price_range: {
           price: '150-248',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -156,7 +156,7 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=hyldaydfbllpu&parentSceneId=6080209518757225217&fb_expo_id=572554805290041394',
         filter_desc: '',
-        url: '/loupan/p_hyldaydfbllpu/',
+        url: '/loupan/p_hyldaydfbllpu/'
       },
       {
         item_type: '0',
@@ -202,24 +202,24 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '3', area_range: '115\u33a1' },
-          { bedroom_count: '4', area_range: '130\u33a1' },
+          { bedroom_count: '4', area_range: '130\u33a1' }
         ],
         tags: [
           '\u8fd1\u4e3b\u5e72\u9053',
           '\u4e34\u8fd1\u9ad8\u901f',
           '\u4e09\u7532\u533b\u9662',
-          '\u8d34\u5fc3\u7269\u4e1a',
+          '\u8d34\u5fc3\u7269\u4e1a'
         ],
         project_tags: [
           { id: '43', desc: '\u8fd1\u4e3b\u5e72\u9053', color: '' },
           { id: '46', desc: '\u4e34\u8fd1\u9ad8\u901f', color: '' },
           { id: '69', desc: '\u4e09\u7532\u533b\u9662', color: '' },
-          { id: '29', desc: '\u8d34\u5fc3\u7269\u4e1a', color: '' },
+          { id: '29', desc: '\u8d34\u5fc3\u7269\u4e1a', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -260,8 +260,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/de7bea3a3ba424def12f9f6a361b8448.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/de7bea3a3ba424def12f9f6a361b8448.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/de7bea3a3ba424def12f9f6a361b8448.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13300',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -281,7 +281,7 @@ export default {
         reference_total_price_range: {
           price: '155-177',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -307,7 +307,7 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=sylqfblotg&parentSceneId=6080209518757225218&fb_expo_id=572554805290041395',
         filter_desc: '',
-        url: '/loupan/p_sylqfblotg/',
+        url: '/loupan/p_sylqfblotg/'
       },
       {
         item_type: '0',
@@ -351,24 +351,24 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '3', area_range: '99.6-141.36\u33a1' },
-          { bedroom_count: '5', area_range: '203.54\u33a1' },
+          { bedroom_count: '5', area_range: '203.54\u33a1' }
         ],
         tags: [
           '\u591a\u8f68\u4ea4\u6c47',
           '\u73af\u7ebf\u623f',
           '\u6210\u719f\u5546\u5708',
-          '\u83dc\u5e02\u573a',
+          '\u83dc\u5e02\u573a'
         ],
         project_tags: [
           { id: '45', desc: '\u591a\u8f68\u4ea4\u6c47', color: '' },
           { id: '23', desc: '\u73af\u7ebf\u623f', color: '' },
           { id: '53', desc: '\u6210\u719f\u5546\u5708', color: '' },
-          { id: '56', desc: '\u83dc\u5e02\u573a', color: '' },
+          { id: '56', desc: '\u83dc\u5e02\u573a', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -409,8 +409,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/a3e1ab809ac1c8719e0ef74b8800e233.png!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/a3e1ab809ac1c8719e0ef74b8800e233.png!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/a3e1ab809ac1c8719e0ef74b8800e233.png!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13000',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -424,7 +424,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u957f\u6c99\u6c47\u4e30\u7f6e\u4e1a\u6709\u9650\u516c\u53f8',
+          '\u957f\u6c99\u6c47\u4e30\u7f6e\u4e1a\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -432,7 +432,7 @@ export default {
         reference_total_price_range: {
           price: '129-263.9',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -454,7 +454,7 @@ export default {
         recommend_reason: {
           type: '4',
           name: '\u697c\u76d8\u4eae\u70b9',
-          details: '\u6210\u719f\u793e\u533a',
+          details: '\u6210\u719f\u793e\u533a'
         },
         reference_total_price_tips:
           '\u8be5\u4ef7\u683c\u4e3a\u53c2\u8003\u4ef7\u683c\uff0c\u5b9e\u9645\u4ef7\u683c\u4ee5\u5f00\u53d1\u5546\u4ef7\u683c\u4e3a\u51c6',
@@ -462,7 +462,7 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=bljgblbah&parentSceneId=6080209518757225219&fb_expo_id=572554805290041396',
         filter_desc: '',
-        url: '/loupan/p_bljgblbah/',
+        url: '/loupan/p_bljgblbah/'
       },
       {
         item_type: '0',
@@ -507,25 +507,25 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '3', area_range: '108-118\u33a1' },
           { bedroom_count: '4', area_range: '142-155\u33a1' },
-          { bedroom_count: '5', area_range: '166\u33a1' },
+          { bedroom_count: '5', area_range: '166\u33a1' }
         ],
         tags: [
           '\u591a\u8f68\u4ea4\u6c47',
           '\u6210\u719f\u5546\u5708',
           '\u8d34\u5fc3\u7269\u4e1a',
-          '\u4eba\u8f66\u5206\u6d41',
+          '\u4eba\u8f66\u5206\u6d41'
         ],
         project_tags: [
           { id: '45', desc: '\u591a\u8f68\u4ea4\u6c47', color: '' },
           { id: '53', desc: '\u6210\u719f\u5546\u5708', color: '' },
           { id: '29', desc: '\u8d34\u5fc3\u7269\u4e1a', color: '' },
-          { id: '52', desc: '\u4eba\u8f66\u5206\u6d41', color: '' },
+          { id: '52', desc: '\u4eba\u8f66\u5206\u6d41', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -566,8 +566,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/96d449cc97d9e0e98d8b661c0a7e209e.jpeg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/96d449cc97d9e0e98d8b661c0a7e209e.jpeg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/96d449cc97d9e0e98d8b661c0a7e209e.jpeg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13000',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -581,7 +581,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u6e56\u5357\u5609\u5b87\u5b9e\u4e1a\u6709\u9650\u516c\u53f8',
+          '\u6e56\u5357\u5609\u5b87\u5b9e\u4e1a\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -589,7 +589,7 @@ export default {
         reference_total_price_range: {
           price: '140-229',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -615,7 +615,7 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=ddhtybmehq&parentSceneId=6080209518757225220&fb_expo_id=572554805290041397',
         filter_desc: '',
-        url: '/loupan/p_ddhtybmehq/',
+        url: '/loupan/p_ddhtybmehq/'
       },
       {
         item_type: '0',
@@ -661,7 +661,7 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [{ bedroom_count: '4', area_range: '142-178\u33a1' }],
@@ -669,13 +669,13 @@ export default {
           '\u54c1\u724c\u623f\u4f01',
           'VR\u770b\u623f',
           '\u4f4e\u5bc6\u5c45\u6240',
-          '\u7eff\u5316\u7387\u9ad8',
+          '\u7eff\u5316\u7387\u9ad8'
         ],
         project_tags: [
           { id: '13', desc: '\u54c1\u724c\u623f\u4f01', color: '' },
           { id: '119', desc: 'VR\u770b\u623f', color: '' },
           { id: '18', desc: '\u4f4e\u5bc6\u5c45\u6240', color: '' },
-          { id: '17', desc: '\u7eff\u5316\u7387\u9ad8', color: '' },
+          { id: '17', desc: '\u7eff\u5316\u7387\u9ad8', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -716,8 +716,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/4126c88d8cb29881996432c07d6da564.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/4126c88d8cb29881996432c07d6da564.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/4126c88d8cb29881996432c07d6da564.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13000',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -731,7 +731,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u6e56\u5357\u5609\u58f9\u7f6e\u4e1a\u6709\u9650\u516c\u53f8',
+          '\u6e56\u5357\u5609\u58f9\u7f6e\u4e1a\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -739,7 +739,7 @@ export default {
         reference_total_price_range: {
           price: '192-300',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -765,7 +765,7 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=yxsbltkd&parentSceneId=6080209518757225221&fb_expo_id=572554805290041398',
         filter_desc: '',
-        url: '/loupan/p_yxsbltkd/',
+        url: '/loupan/p_yxsbltkd/'
       },
       {
         item_type: '0',
@@ -811,7 +811,7 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [{ bedroom_count: '4', area_range: '143\u33a1' }],
@@ -819,13 +819,13 @@ export default {
           '\u8fd1\u4e3b\u5e72\u9053',
           '\u6210\u719f\u5546\u5708',
           '\u4e09\u7532\u533b\u9662',
-          'VR\u770b\u623f',
+          'VR\u770b\u623f'
         ],
         project_tags: [
           { id: '43', desc: '\u8fd1\u4e3b\u5e72\u9053', color: '' },
           { id: '53', desc: '\u6210\u719f\u5546\u5708', color: '' },
           { id: '69', desc: '\u4e09\u7532\u533b\u9662', color: '' },
-          { id: '119', desc: 'VR\u770b\u623f', color: '' },
+          { id: '119', desc: 'VR\u770b\u623f', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -866,8 +866,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/55b2d9b5d8d539cf7a6e274133677a4f.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/55b2d9b5d8d539cf7a6e274133677a4f.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/55b2d9b5d8d539cf7a6e274133677a4f.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13000',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -881,7 +881,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u957f\u6c99\u9886\u65b0\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8',
+          '\u957f\u6c99\u9886\u65b0\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -889,7 +889,7 @@ export default {
         reference_total_price_range: {
           price: '183-195',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -915,7 +915,7 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=jxlhnfdcyblwut&parentSceneId=6080209518757225222&fb_expo_id=572554805290041399',
         filter_desc: '',
-        url: '/loupan/p_jxlhnfdcyblwut/',
+        url: '/loupan/p_jxlhnfdcyblwut/'
       },
       {
         item_type: '0',
@@ -961,24 +961,24 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '4', area_range: '140-152\u33a1' },
-          { bedroom_count: '5', area_range: '165\u33a1' },
+          { bedroom_count: '5', area_range: '165\u33a1' }
         ],
         tags: [
           '\u8fd1\u4e3b\u5e72\u9053',
           '\u8d34\u5fc3\u7269\u4e1a',
           '\u7eff\u5316\u7387\u9ad8',
-          '\u4eba\u8f66\u5206\u6d41',
+          '\u4eba\u8f66\u5206\u6d41'
         ],
         project_tags: [
           { id: '43', desc: '\u8fd1\u4e3b\u5e72\u9053', color: '' },
           { id: '29', desc: '\u8d34\u5fc3\u7269\u4e1a', color: '' },
           { id: '17', desc: '\u7eff\u5316\u7387\u9ad8', color: '' },
-          { id: '52', desc: '\u4eba\u8f66\u5206\u6d41', color: '' },
+          { id: '52', desc: '\u4eba\u8f66\u5206\u6d41', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -1019,8 +1019,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/396216fffc588f6fbc91d97dbf5cf9aa.png!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/396216fffc588f6fbc91d97dbf5cf9aa.png!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/396216fffc588f6fbc91d97dbf5cf9aa.png!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13000',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -1034,7 +1034,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u6e56\u5357\u7f8e\u8054\u7f6e\u4e1a\u6709\u9650\u516c\u53f8',
+          '\u6e56\u5357\u7f8e\u8054\u7f6e\u4e1a\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -1042,7 +1042,7 @@ export default {
         reference_total_price_range: {
           price: '185-225',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -1068,7 +1068,7 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=jylbnggblofn&parentSceneId=6080209518757225223&fb_expo_id=572554805290041400',
         filter_desc: '',
-        url: '/loupan/p_jylbnggblofn/',
+        url: '/loupan/p_jylbnggblofn/'
       },
       {
         item_type: '0',
@@ -1112,17 +1112,17 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '3', area_range: '116-117\u33a1' },
-          { bedroom_count: '4', area_range: '129-143\u33a1' },
+          { bedroom_count: '4', area_range: '129-143\u33a1' }
         ],
         tags: ['VR\u770b\u623f', '\u7eff\u5316\u7387\u9ad8'],
         project_tags: [
           { id: '119', desc: 'VR\u770b\u623f', color: '' },
-          { id: '17', desc: '\u7eff\u5316\u7387\u9ad8', color: '' },
+          { id: '17', desc: '\u7eff\u5316\u7387\u9ad8', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -1163,8 +1163,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/8a42bf9867fc629f629482f6f3cff771.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/8a42bf9867fc629f629482f6f3cff771.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/8a42bf9867fc629f629482f6f3cff771.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13000',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -1178,7 +1178,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u957f\u6c99\u957f\u623f\u897f\u5e9c\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8',
+          '\u957f\u6c99\u957f\u623f\u897f\u5e9c\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -1186,7 +1186,7 @@ export default {
         reference_total_price_range: {
           price: '144-185',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -1212,7 +1212,7 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=cfyxsbmgzk&parentSceneId=6080209518757225224&fb_expo_id=572554805290041401',
         filter_desc: '',
-        url: '/loupan/p_cfyxsbmgzk/',
+        url: '/loupan/p_cfyxsbmgzk/'
       },
       {
         item_type: '0',
@@ -1258,23 +1258,23 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '2', area_range: '86-90\u33a1' },
           { bedroom_count: '3', area_range: '112-120\u33a1' },
-          { bedroom_count: '4', area_range: '131-150\u33a1' },
+          { bedroom_count: '4', area_range: '131-150\u33a1' }
         ],
         tags: [
           '\u7279\u4ef7\u597d\u623f',
           '\u8f66\u4f4d\u5145\u8db3',
-          '\u7eff\u5316\u7387\u9ad8',
+          '\u7eff\u5316\u7387\u9ad8'
         ],
         project_tags: [
           { id: '99', desc: '\u7279\u4ef7\u597d\u623f', color: '' },
           { id: '3', desc: '\u8f66\u4f4d\u5145\u8db3', color: '' },
-          { id: '17', desc: '\u7eff\u5316\u7387\u9ad8', color: '' },
+          { id: '17', desc: '\u7eff\u5316\u7387\u9ad8', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -1315,8 +1315,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/fc5dbb87dda5d2c240cca3bec5479d15.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/fc5dbb87dda5d2c240cca3bec5479d15.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/fc5dbb87dda5d2c240cca3bec5479d15.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13000',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -1330,7 +1330,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u6e56\u5357\u878d\u6e90\u7f6e\u4e1a\u6709\u9650\u516c\u53f8',
+          '\u6e56\u5357\u878d\u6e90\u7f6e\u4e1a\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -1338,7 +1338,7 @@ export default {
         reference_total_price_range: {
           price: '112-195',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -1362,7 +1362,7 @@ export default {
           type: '4',
           name: '\u63a8\u8350\u7406\u7531',
           details:
-            '\u957f\u6c99\u5e02\u5929\u5fc3\u9500\u91cf\u699c\u7b2c9\u540d',
+            '\u957f\u6c99\u5e02\u5929\u5fc3\u9500\u91cf\u699c\u7b2c9\u540d'
         },
         reference_total_price_tips:
           '\u8be5\u4ef7\u683c\u4e3a\u53c2\u8003\u4ef7\u683c\uff0c\u5b9e\u9645\u4ef7\u683c\u4ee5\u5f00\u53d1\u5546\u4ef7\u683c\u4e3a\u51c6',
@@ -1370,7 +1370,7 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=hhsdbmjgi&parentSceneId=6080209518757225225&fb_expo_id=572554805290041402',
         filter_desc: '',
-        url: '/loupan/p_hhsdbmjgi/',
+        url: '/loupan/p_hhsdbmjgi/'
       },
       {
         item_type: '0',
@@ -1416,24 +1416,24 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '4', area_range: '140\u33a1' },
-          { bedroom_count: '5', area_range: '173\u33a1' },
+          { bedroom_count: '5', area_range: '173\u33a1' }
         ],
         tags: [
           '\u591a\u8f68\u4ea4\u6c47',
           '\u73af\u7ebf\u623f',
           '\u914d\u5957\u9f50\u5168',
-          '\u6210\u719f\u5546\u5708',
+          '\u6210\u719f\u5546\u5708'
         ],
         project_tags: [
           { id: '45', desc: '\u591a\u8f68\u4ea4\u6c47', color: '' },
           { id: '23', desc: '\u73af\u7ebf\u623f', color: '' },
           { id: '4', desc: '\u914d\u5957\u9f50\u5168', color: '' },
-          { id: '53', desc: '\u6210\u719f\u5546\u5708', color: '' },
+          { id: '53', desc: '\u6210\u719f\u5546\u5708', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -1474,8 +1474,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/e10b17976c40b5fd852452b8dc747a9f.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/e10b17976c40b5fd852452b8dc747a9f.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/e10b17976c40b5fd852452b8dc747a9f.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13000',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -1489,7 +1489,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u6e56\u5357\u6ee8\u9e3f\u623f\u5730\u4ea7\u6709\u9650\u516c\u53f8',
+          '\u6e56\u5357\u6ee8\u9e3f\u623f\u5730\u4ea7\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -1497,7 +1497,7 @@ export default {
         reference_total_price_range: {
           price: '175-216',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -1521,7 +1521,7 @@ export default {
           type: '4',
           name: '\u697c\u76d8\u4eae\u70b9',
           details:
-            '\u6b66\u5e7f\u65b0\u57ce\u54c1\u724c\u5730\u4ea7 \u914d\u5957\u5b8c\u5584',
+            '\u6b66\u5e7f\u65b0\u57ce\u54c1\u724c\u5730\u4ea7 \u914d\u5957\u5b8c\u5584'
         },
         reference_total_price_tips:
           '\u8be5\u4ef7\u683c\u4e3a\u53c2\u8003\u4ef7\u683c\uff0c\u5b9e\u9645\u4ef7\u683c\u4ee5\u5f00\u53d1\u5546\u4ef7\u683c\u4e3a\u51c6',
@@ -1529,8 +1529,8 @@ export default {
         app_detail_url:
           'lianjiabeike://newhouse/detail?project_name=ztxycbjskt&parentSceneId=6080209518757225226&fb_expo_id=572554805290041403',
         filter_desc: '',
-        url: '/loupan/p_ztxycbjskt/',
-      },
+        url: '/loupan/p_ztxycbjskt/'
+      }
     ],
     switch_city: [],
     total: '281',
@@ -1548,8 +1548,8 @@ export default {
           symbol: 'nht',
           name: '\u4f4f\u5b85',
           type: '107500000003',
-          symbol_value: '1',
-        },
+          symbol_value: '1'
+        }
       ],
       tags: [],
       sell_status: [
@@ -1557,8 +1557,8 @@ export default {
           symbol: 'nhs',
           name: '\u5728\u552e',
           sell_status: '3',
-          symbol_value: '1',
-        },
+          symbol_value: '1'
+        }
       ],
       decorate_type: [],
       open_time: [],
@@ -1567,15 +1567,15 @@ export default {
         symbol: 'co',
         name: '\u5355\u4ef7\u7531\u9ad8\u5230\u4f4e',
         sort: 'priceUnit desc',
-        symbol_value: '42',
+        symbol_value: '42'
       },
       find_house: { code: 0 },
       city: {
         city_id: '430100',
         city_name: '\u957f\u6c99',
-        city_short: 'cs',
+        city_short: 'cs'
       },
-      has_filter: 1,
+      has_filter: 1
     },
     hot_resblock: [
       {
@@ -1622,25 +1622,25 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '3', area_range: '83-89\u33a1' },
           { bedroom_count: '4', area_range: '112-125\u33a1' },
-          { bedroom_count: '5', area_range: '143\u33a1' },
+          { bedroom_count: '5', area_range: '143\u33a1' }
         ],
         tags: [
           '\u4f4e\u603b\u4ef7',
           '\u54c1\u724c\u623f\u4f01',
           'VR\u770b\u623f',
-          '\u4f4e\u5bc6\u5c45\u6240',
+          '\u4f4e\u5bc6\u5c45\u6240'
         ],
         project_tags: [
           { id: '25', desc: '\u4f4e\u603b\u4ef7', color: '' },
           { id: '13', desc: '\u54c1\u724c\u623f\u4f01', color: '' },
           { id: '119', desc: 'VR\u770b\u623f', color: '' },
-          { id: '18', desc: '\u4f4e\u5bc6\u5c45\u6240', color: '' },
+          { id: '18', desc: '\u4f4e\u5bc6\u5c45\u6240', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -1681,8 +1681,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/793afb9b6086c64df5947987701f99e9.jpeg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/793afb9b6086c64df5947987701f99e9.jpeg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/793afb9b6086c64df5947987701f99e9.jpeg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '7800',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -1696,7 +1696,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u957f\u6c99\u822a\u5f00\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8',
+          '\u957f\u6c99\u822a\u5f00\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -1704,7 +1704,7 @@ export default {
         reference_total_price_range: {
           price: '60-114',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -1731,7 +1731,7 @@ export default {
           'lianjiabeike://newhouse/detail?project_name=hyjkkggjcbmfef&parentSceneId=6080209519710395905&fb_expo_id=r16512437032282832777296742630',
         reference_total_price_tips:
           '\u8be5\u4ef7\u683c\u4e3a\u53c2\u8003\u4ef7\u683c\uff0c\u5b9e\u9645\u4ef7\u683c\u4ee5\u5f00\u53d1\u5546\u4ef7\u683c\u4e3a\u51c6',
-        url: '/loupan/p_hyjkkggjcbmfef/',
+        url: '/loupan/p_hyjkkggjcbmfef/'
       },
       {
         item_type: '0',
@@ -1777,24 +1777,24 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '3', area_range: '115\u33a1' },
-          { bedroom_count: '4', area_range: '143-180\u33a1' },
+          { bedroom_count: '4', area_range: '143-180\u33a1' }
         ],
         tags: [
           '\u591a\u8f68\u4ea4\u6c47',
           '\u8fd1\u4e3b\u5e72\u9053',
           '\u6210\u719f\u5546\u5708',
-          '\u56fd\u9645\u533b\u7597',
+          '\u56fd\u9645\u533b\u7597'
         ],
         project_tags: [
           { id: '45', desc: '\u591a\u8f68\u4ea4\u6c47', color: '' },
           { id: '43', desc: '\u8fd1\u4e3b\u5e72\u9053', color: '' },
           { id: '53', desc: '\u6210\u719f\u5546\u5708', color: '' },
-          { id: '70', desc: '\u56fd\u9645\u533b\u7597', color: '' },
+          { id: '70', desc: '\u56fd\u9645\u533b\u7597', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -1835,8 +1835,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/6dfcdc25791d4c48127e0081e47ee695.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/6dfcdc25791d4c48127e0081e47ee695.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/6dfcdc25791d4c48127e0081e47ee695.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '13500',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -1850,7 +1850,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u957f\u6c99\u51ef\u6052\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8',
+          '\u957f\u6c99\u51ef\u6052\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -1858,7 +1858,7 @@ export default {
         reference_total_price_range: {
           price: '158-248',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -1883,7 +1883,7 @@ export default {
           type: '4',
           name: '\u697c\u76d8\u4eae\u70b9',
           details:
-            '\u5e02\u5e9c\u5317\u8c37\u5c71\u5357\u8fd1\u767e\u4e07\u65b9\u4e07\u79d1\u5927\u76d8',
+            '\u5e02\u5e9c\u5317\u8c37\u5c71\u5357\u8fd1\u767e\u4e07\u65b9\u4e07\u79d1\u5927\u76d8'
         },
         reco_spec_info: [],
         extra_info: [],
@@ -1891,7 +1891,7 @@ export default {
           'lianjiabeike://newhouse/detail?project_name=wkslgybmiet&parentSceneId=6080209519710395906&fb_expo_id=r16512437032282832777296742631',
         reference_total_price_tips:
           '\u8be5\u4ef7\u683c\u4e3a\u53c2\u8003\u4ef7\u683c\uff0c\u5b9e\u9645\u4ef7\u683c\u4ee5\u5f00\u53d1\u5546\u4ef7\u683c\u4e3a\u51c6',
-        url: '/loupan/p_wkslgybmiet/',
+        url: '/loupan/p_wkslgybmiet/'
       },
       {
         item_type: '0',
@@ -1937,24 +1937,24 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '3', area_range: '111\u33a1' },
-          { bedroom_count: '4', area_range: '132\u33a1' },
+          { bedroom_count: '4', area_range: '132\u33a1' }
         ],
         tags: [
           '\u591a\u8f68\u4ea4\u6c47',
           '\u73af\u7ebf\u623f',
           '\u914d\u5957\u9f50\u5168',
-          '\u6210\u719f\u5546\u5708',
+          '\u6210\u719f\u5546\u5708'
         ],
         project_tags: [
           { id: '45', desc: '\u591a\u8f68\u4ea4\u6c47', color: '' },
           { id: '23', desc: '\u73af\u7ebf\u623f', color: '' },
           { id: '4', desc: '\u914d\u5957\u9f50\u5168', color: '' },
-          { id: '53', desc: '\u6210\u719f\u5546\u5708', color: '' },
+          { id: '53', desc: '\u6210\u719f\u5546\u5708', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -1995,8 +1995,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/ebac9e5633e2013d4c231168771ed7b9.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/ebac9e5633e2013d4c231168771ed7b9.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/ebac9e5633e2013d4c231168771ed7b9.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '8700',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -2010,7 +2010,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u6e56\u5357\u91d1\u79d1\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8',
+          '\u6e56\u5357\u91d1\u79d1\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -2018,7 +2018,7 @@ export default {
         reference_total_price_range: {
           price: '96-120',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -2041,7 +2041,7 @@ export default {
         recommend_reason: {
           type: '4',
           name: '\u697c\u76d8\u4eae\u70b9',
-          details: '\u5357\u57ce\u677f\u5757 \u7a7a\u4e2d\u534e\u5b85',
+          details: '\u5357\u57ce\u677f\u5757 \u7a7a\u4e2d\u534e\u5b85'
         },
         reco_spec_info: [],
         extra_info: [],
@@ -2049,7 +2049,7 @@ export default {
           'lianjiabeike://newhouse/detail?project_name=jkjmtcbjirr&parentSceneId=6080209519710395907&fb_expo_id=r16512437032282832777296742632',
         reference_total_price_tips:
           '\u8be5\u4ef7\u683c\u4e3a\u53c2\u8003\u4ef7\u683c\uff0c\u5b9e\u9645\u4ef7\u683c\u4ee5\u5f00\u53d1\u5546\u4ef7\u683c\u4e3a\u51c6',
-        url: '/loupan/p_jkjmtcbjirr/',
+        url: '/loupan/p_jkjmtcbjirr/'
       },
       {
         item_type: '0',
@@ -2092,25 +2092,25 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '1', area_range: '36.46\u33a1' },
           { bedroom_count: '2', area_range: '43-55\u33a1' },
-          { bedroom_count: '3', area_range: '78-82\u33a1' },
+          { bedroom_count: '3', area_range: '78-82\u33a1' }
         ],
         tags: [
           '\u4f4e\u603b\u4ef7',
           '\u4f4e\u5355\u4ef7',
           '\u73af\u7ebf\u623f',
-          '\u8fd1\u4e3b\u5e72\u9053',
+          '\u8fd1\u4e3b\u5e72\u9053'
         ],
         project_tags: [
           { id: '25', desc: '\u4f4e\u603b\u4ef7', color: '' },
           { id: '24', desc: '\u4f4e\u5355\u4ef7', color: '' },
           { id: '23', desc: '\u73af\u7ebf\u623f', color: '' },
-          { id: '43', desc: '\u8fd1\u4e3b\u5e72\u9053', color: '' },
+          { id: '43', desc: '\u8fd1\u4e3b\u5e72\u9053', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -2151,8 +2151,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/hdic-resblock/a8791bee-4c99-439b-9f85-de659b05368d.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/hdic-resblock/a8791bee-4c99-439b-9f85-de659b05368d.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/hdic-resblock/a8791bee-4c99-439b-9f85-de659b05368d.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '6450',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -2166,7 +2166,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u6e56\u5357\u6021\u6d77\u4e09\u6e58\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8',
+          '\u6e56\u5357\u6021\u6d77\u4e09\u6e58\u623f\u5730\u4ea7\u5f00\u53d1\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -2174,7 +2174,7 @@ export default {
         reference_total_price_range: {
           price: '23.1-56.7',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -2199,7 +2199,7 @@ export default {
           type: '4',
           name: '\u697c\u76d8\u4eae\u70b9',
           details:
-            '\u957f\u682a\u6f6d\u5546\u5708\u591a\u4e1a\u6001\u7efc\u5408\u793e\u533a',
+            '\u957f\u682a\u6f6d\u5546\u5708\u591a\u4e1a\u6001\u7efc\u5408\u793e\u533a'
         },
         reco_spec_info: [],
         extra_info: [],
@@ -2207,7 +2207,7 @@ export default {
           'lianjiabeike://newhouse/detail?project_name=yhxcabjft&parentSceneId=6080209519710395908&fb_expo_id=r16512437032282832777296742633',
         reference_total_price_tips:
           '\u8be5\u4ef7\u683c\u4e3a\u53c2\u8003\u4ef7\u683c\uff0c\u5b9e\u9645\u4ef7\u683c\u4ee5\u5f00\u53d1\u5546\u4ef7\u683c\u4e3a\u51c6',
-        url: '/loupan/p_yhxcabjft/',
+        url: '/loupan/p_yhxcabjft/'
       },
       {
         item_type: '0',
@@ -2253,25 +2253,25 @@ export default {
           lianjia_special_comm: '',
           developer_special: [],
           developer_special_type: '',
-          developer_special_comm: '',
+          developer_special_comm: ''
         },
         frame_rooms: [],
         converged_rooms: [
           { bedroom_count: '1', area_range: '37.05-52.02\u33a1' },
           { bedroom_count: '2', area_range: '72.58-74.1\u33a1' },
-          { bedroom_count: '3', area_range: '114.07\u33a1' },
+          { bedroom_count: '3', area_range: '114.07\u33a1' }
         ],
         tags: [
           '\u4f4e\u603b\u4ef7',
           '\u5730\u94c1\u6cbf\u7ebf',
           '\u73af\u7ebf\u623f',
-          '\u914d\u5957\u9f50\u5168',
+          '\u914d\u5957\u9f50\u5168'
         ],
         project_tags: [
           { id: '25', desc: '\u4f4e\u603b\u4ef7', color: '' },
           { id: '1', desc: '\u5730\u94c1\u6cbf\u7ebf', color: '' },
           { id: '23', desc: '\u73af\u7ebf\u623f', color: '' },
-          { id: '4', desc: '\u914d\u5957\u9f50\u5168', color: '' },
+          { id: '4', desc: '\u914d\u5957\u9f50\u5168', color: '' }
         ],
         house_type: '\u4f4f\u5b85',
         house_type_value: '107500000003',
@@ -2313,8 +2313,8 @@ export default {
             image_size_url:
               'https://image1.ljcdn.com/newhouse-user-image/6fe7ddcda93655425fbb50284c442208.jpg!m_fill,w_750,h_562,l_fbk',
             image_list_size_url:
-              'https://image1.ljcdn.com/newhouse-user-image/6fe7ddcda93655425fbb50284c442208.jpg!m_fill,w_1440,l_fbk',
-          },
+              'https://image1.ljcdn.com/newhouse-user-image/6fe7ddcda93655425fbb50284c442208.jpg!m_fill,w_1440,l_fbk'
+          }
         ],
         reference_avg_price: '11800',
         reference_avg_price_unit: '\u5143/\u33a1',
@@ -2328,7 +2328,7 @@ export default {
         is_undertake: '0',
         properright: '',
         developer_company: [
-          '\u6e56\u5357\u946b\u8fdc\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8',
+          '\u6e56\u5357\u946b\u8fdc\u6295\u8d44\u96c6\u56e2\u6709\u9650\u516c\u53f8'
         ],
         property_company: [],
         live_tag: '0',
@@ -2336,7 +2336,7 @@ export default {
         reference_total_price_range: {
           price: '50.3-155',
           price_unit: '\u4e07/\u5957',
-          price_desc: '\u53c2\u8003\u603b\u4ef7',
+          price_desc: '\u53c2\u8003\u603b\u4ef7'
         },
         sale_status_color: '5F94FF',
         house_type_color: 'FB9252',
@@ -2361,7 +2361,7 @@ export default {
           type: '4',
           name: '\u697c\u76d8\u4eae\u70b9',
           details:
-            '\u6e56\u6e58\u5927\u9662\u540d\u90b8\u7eaf\u7cb9\u6d0b\u623f\u4f4f\u533a',
+            '\u6e56\u6e58\u5927\u9662\u540d\u90b8\u7eaf\u7cb9\u6d0b\u623f\u4f4f\u533a'
         },
         reco_spec_info: [],
         extra_info: [],
@@ -2369,8 +2369,8 @@ export default {
           'lianjiabeike://newhouse/detail?project_name=xyyxsbjqfq&parentSceneId=6080209519710395909&fb_expo_id=r16512437032282832777296742634',
         reference_total_price_tips:
           '\u8be5\u4ef7\u683c\u4e3a\u53c2\u8003\u4ef7\u683c\uff0c\u5b9e\u9645\u4ef7\u683c\u4ee5\u5f00\u53d1\u5546\u4ef7\u683c\u4e3a\u51c6',
-        url: '/loupan/p_xyyxsbjqfq/',
-      },
-    ],
-  },
+        url: '/loupan/p_xyyxsbjqfq/'
+      }
+    ]
+  }
 }

@@ -4,7 +4,7 @@ import { onBeforeUnmount } from 'vue'
 const theme = G2.getTheme('dark')
 G2.registerTheme('customize-dark', {
   ...theme,
-  background: 'transparent',
+  background: 'transparent'
 })
 
 let wordCloud
@@ -13,8 +13,8 @@ wordCloud = new WordCloud('container', {
   data: [
     {
       name: '1',
-      value: 123,
-    },
+      value: 123
+    }
   ],
   wordField: 'name',
   weightField: 'value',
@@ -22,11 +22,11 @@ wordCloud = new WordCloud('container', {
   wordStyle: {
     fontFamily: 'Verdana',
     fontSize: [22, 42],
-    rotation: 0,
+    rotation: 0
   },
   // theme: isDark.value ? 'customize-dark' : 'light',
 
-  random: () => 0.5,
+  random: () => 0.5
 })
 
 wordCloud.render()
