@@ -8,7 +8,7 @@
 
 - 项目是 **2022 年初** 立项，陆陆续续整个 2022 年都在更新迭代，过程中看了很多资料，在 `2022年12月中旬` 结束了一年的开发工作
 - 2023 年 4 月中旬开始继续更新
-- ~~`github`是可以直接进行预览`html`的，由于这个因素，当初由`vitepress` 修改为了基础的`html文件` 所以我们会直接用原生 `html`文件的方式，不再借助任何静态博客站点（思考再三整个项目使用原生的 `HTML` `CSS` `JavaScript` ）~~
+- ，由于这个因素，当初由`vitepress` 修改为了基础的`html文件` 所以我们会~~
 - 接触到了 `Monorepo` 管理仓库的方式，统一修改为这种方式。可参考 [https://pnpm.io/zh/workspaces](https://pnpm.io/zh/workspaces)
 - 如果你关注这个项目完整详细的更新日志，可以看 `packages/changelog/index.md`
 

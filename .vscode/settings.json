@@ -1,5 +1,5 @@
 {
-  "files.associations": {
-    "*.mdx": "markdown"
-  }
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true
 }

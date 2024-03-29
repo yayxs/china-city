@@ -1,0 +1,46 @@
+# 介绍
+
+## 感谢这些项目
+
+- [Fast Node Manager (fnm)](https://github.com/Schniz/fnm)
+  - [https://github.com/Schniz/fnm#usage-with-cmder](https://github.com/Schniz/fnm#usage-with-cmder)
+- [pnpm](https://github.com/pnpm/pnpm)
+- [https://github.com/web-infra-dev/rspress](https://github.com/web-infra-dev/rspress)
+
+## 文档站点选型
+
+**核心的诉求：**
+
+- 一个字 `快`
+- 轻量
+- 支持`mdx`
+- 可以写一些组件
+- 基于文件路由，不写配置
+
+|                      a                       |             b             |
+| :------------------------------------------: | :-----------------------: |
+|  vuepress https://github.com/vuejs/vuepress  |   基于vue组件，vue生态    |
+| vitepress https://github.com/vuejs/vitepress |  vite生态，得写配置文件   |
+|   nextra https://github.com/shuding/nextra   | next生态 有点重，依赖next |
+
+## 选型的历史
+
+- 这个项目的最早一次`commit`是在 **2022 年 3 月 12 日** 这个 commit [点击这里](https://github.com/yayxs/china-city/commit/ecd34f90193def65bf43d9de1628f10cc789757c)
+- 最早的话这个项目使用的是纯纯的 markdown。刚开始主要是写一些文字 ，如果项目是在`github`上写`md`，可以直接在github上看，不过有的人可能不能科学上网
+- 后边的话使用过 `vitepress`。至于为啥不用这个呢，觉得还得配置比较麻烦，写东西的时候总是分心想着怎么配置
+- 正是因为麻烦后来使用了一种直接预览的方式，就不想再借助一些像 vitepree 这种。后来想着直接使用`html` 文件，`github`是可以直接进行预览`html`的，直接用原生 `html`文件的方式，不再借助任何静态博客站点（使用原生的 `HTML` `CSS` `JavaScript` ）
+- 再后来接触到了 `Monorepo` 管理仓库的方式，统一修改为这种方式。可参考 [https://pnpm.io/zh/workspaces](https://pnpm.io/zh/workspaces)
+- 后来接触到了`astro`
+
+<details>
+  <summary>about astro</summary>
+  <p>
+    说一下怎么结识这个框架的。上班的时候之前看到过掘金上的文章讲这是个什么技术，当时没在意，只看了个标题
+    2023年10月20号看了一会文档，觉得可以试一试。
+  </p>
+  <p> [astro 的 github 仓库的地址](https://github.com/withastro/astro)</p>
+  <p>
+    `astro` 的文档，这是链接
+    [astro](https://docs.astro.build/zh-cn/core-concepts/project-structure/)
+  </p>
+</details>

@@ -1,10 +1,11 @@
 {
   "name": "china-city",
-  "version": "3.0.1",
+  "version": "2.0.0",
   "description": "互联网人城市选择指南",
   "scripts": {
-    "dev": "astro dev",
-    "prettier": "prettier --write . --plugin=prettier-plugin-astro"
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
     "房价",
     "vision-china",
     "视野中国",
-    "程序员视角看中国城市"
+    "程序员视角看中国城市",
+    "新一线",
+    "wuhan",
+    "武汉"
   ],
   "author": "vanlee",
   "license": "MIT",
@@ -26,28 +30,10 @@
     "url": "https://github.com/yayxs/vision-china/issues"
   },
   "homepage": "https://github.com/yayxs/vision-china#readme",
-  "dependencies": {
-    "@algolia/client-search": "4.9.1",
-    "@antv/f2": "^4.0.38",
-    "@antv/g2plot": "^2.4.20",
-    "@antv/s2": "^1.35.0",
-    "@antv/s2-vue": "^1.4.0",
-    "@astrojs/mdx": "^1.1.2",
-    "@astrojs/vercel": "^5.0.1",
-    "ant-design-vue": "^3.2.15",
-    "astro": "^3.3.2",
-    "axios": "^1.2.0",
-    "typescript": "^4.8.4",
-    "vue": "^3.2.45"
-  },
   "devDependencies": {
-    "@types/node": "^18.11.10",
-    "flexsearch": "^0.7.31",
-    "markdown-it": "^13.0.1",
-    "mermaid": "9.1.7",
-    "prettier": "^2.7.1",
-    "prettier-plugin-astro": "^0.12.0",
-    "sass": "^1.56.1",
-    "unplugin-vue-components": "^0.22.11"
+    "prettier": "^3.2.5",
+    "rspress": "^1.16.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
   }
 }
