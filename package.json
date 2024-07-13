@@ -1,15 +1,17 @@
 {
   "name": "china-city",
-  "version": "2.0.0",
+  "type": "module",
+  "version": "3.0.0",
   "description": "互联网人城市选择指南",
-  "scripts": {
-    "dev": "rspress dev",
-    "build": "rspress build",
-    "preview": "rspress preview"
-  },
+  "author": "vanlee",
+  "license": "MIT",
+  "homepage": "https://github.com/yayxs/vision-china#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yayxs/china-city.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yayxs/vision-china/issues"
   },
   "keywords": [
     "china",
@@ -22,18 +24,27 @@
     "程序员视角看中国城市",
     "新一线",
     "wuhan",
-    "武汉"
+    "武汉",
+    "长沙"
   ],
-  "author": "vanlee",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yayxs/vision-china/issues"
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite-ssg build"
   },
-  "homepage": "https://github.com/yayxs/vision-china#readme",
+  "dependencies": {
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
   "devDependencies": {
-    "prettier": "^3.2.5",
-    "rspress": "^1.16.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.3"
+    "@antfu/eslint-config": "^2.22.2",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^9.7.0",
+    "eslint-plugin-format": "^0.1.2",
+    "pnpm": "^9.5.0",
+    "typescript": "^5.5.3",
+    "unplugin-vue-markdown": "^0.26.2",
+    "unplugin-vue-router": "^0.10.0",
+    "vite": "^5.3.3",
+    "vite-ssg": "^0.23.8"
   }
 }
