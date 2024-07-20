@@ -1,7 +1,3 @@
-<script setup>
-import IndexComp from '../components/changsha/Index.vue'
-</script>
-
 # 长沙
 
 ::: tip
@@ -269,8 +265,6 @@ e.长沙办理迁入，具体流程会尽快整理 教程 3
 - **麓谷山湖郡**
 
 ## 行政区划
-
-
 
 ### 芙蓉区
 

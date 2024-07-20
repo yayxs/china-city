@@ -1,11 +1,14 @@
-# 介绍
+# 更新日志 Change log
 
-## 感谢这些项目
+## 说明
 
-- [Fast Node Manager (fnm)](https://github.com/Schniz/fnm)
-  - [https://github.com/Schniz/fnm#usage-with-cmder](https://github.com/Schniz/fnm#usage-with-cmder)
-- [pnpm](https://github.com/pnpm/pnpm)
-- [https://github.com/web-infra-dev/rspress](https://github.com/web-infra-dev/rspress)
+- 项目是 **2022 年初** 立项，陆陆续续整个 2022 年都在更新迭代，过程中看了很多资料，在 `2022年12月中旬` 结束了一年的开发工作
+- 2023 年 4 月中旬开始继续更新
+- 后边使用过 `vitepress`
+- 直接使用基础的`html文件`
+- 接触到了 `Monorepo` 管理仓库的方式，统一修改为这种方式。可参考 [https://pnpm.io/zh/workspaces](https://pnpm.io/zh/workspaces)
+
+## 日志
 
 ## 文档站点选型
 
@@ -44,3 +47,22 @@
     [astro](https://docs.astro.build/zh-cn/core-concepts/project-structure/)
   </p>
 </details>
+
+# 更新时间
+
+**2022 年国庆节假期过后**，整个项目基于 `VitePress` 文档化，详细的`changelog` 可以参考 `git log`
+
+|    时间    |                           更新内容                           |   其他   |
+| :--------: | :----------------------------------------------------------: | :------: |
+| 2022-03-12 |                  写上一点想法 & 读读十四五                   | `V0.0.1` |
+| 2022-03-14 |                       中国美女城市排行                       | `V0.0.2` |
+| 2022-03-21 |                      近几年的新一线排名                      | `V0.0.3` |
+| 2022-04-04 |                         城市买房资格                         | `V0.0.4` |
+| 2022-04-10 |                      长沙辖区 武汉房价                       | `V0.0.5` |
+| 2022-04-16 |               整理 `readme` 添加新一线历年排名               | `V0.0.6` |
+| 2022-04-23 |                         完善中国省份                         | `V0.0.7` |
+| 2022-04-30 |                        长沙房价可视化                        | `V0.0.8` |
+| 2022-05-05 |                        中国 高中 排行                        | `V0.0.9` |
+| 2022-06-19 |                         河南 十四五                          | `V1.0.0` |
+| 2022-06-25 | 1、修改仓库名 `vision-china` 改为 `china-city` 2、湖南十四五 | `V1.0.1` |
+| 2022-07-02 |      1、替换`gitee`图床文件 修改为 cos 2、确定目录大纲       | `V1.0.2` |

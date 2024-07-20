@@ -19,5 +19,17 @@ declare module 'vue-router/auto-routes' {
    */
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
+    '/acknowledgement': RouteRecordInfo<'/acknowledgement', '/acknowledgement', Record<never, never>, Record<never, never>>,
+    '/changelog': RouteRecordInfo<'/changelog', '/changelog', Record<never, never>, Record<never, never>>,
+    '/changsha': RouteRecordInfo<'/changsha', '/changsha', Record<never, never>, Record<never, never>>,
+    '/hospital': RouteRecordInfo<'/hospital', '/hospital', Record<never, never>, Record<never, never>>,
+    '/new-first-tier-cities': RouteRecordInfo<'/new-first-tier-cities', '/new-first-tier-cities', Record<never, never>, Record<never, never>>,
+    '/opinionated': RouteRecordInfo<'/opinionated', '/opinionated', Record<never, never>, Record<never, never>>,
+    '/province': RouteRecordInfo<'/province', '/province', Record<never, never>, Record<never, never>>,
+    '/what': RouteRecordInfo<'/what', '/what', Record<never, never>, Record<never, never>>,
+    '/where-to-start': RouteRecordInfo<'/where-to-start', '/where-to-start', Record<never, never>, Record<never, never>>,
+    '/why': RouteRecordInfo<'/why', '/why', Record<never, never>, Record<never, never>>,
+    '/wuhan': RouteRecordInfo<'/wuhan', '/wuhan', Record<never, never>, Record<never, never>>,
+    '/xian': RouteRecordInfo<'/xian', '/xian', Record<never, never>, Record<never, never>>,
   }
 }
